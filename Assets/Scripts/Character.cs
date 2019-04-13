@@ -9,7 +9,7 @@ public abstract class Character : MonoBehaviour
     protected Vector2 direction;
     protected Animator animator;
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         animator = GetComponent<Animator>();
     }
@@ -19,16 +19,20 @@ public abstract class Character : MonoBehaviour
     {
         Move();
     }
+
     public void Move()
     {
-        transform.Translate(direction * speed * Time.deltaTime);
-        AnimateMovement(direction);
+        transform.Translate(direction.normalized * speed * Time.deltaTime);
+        if (direction.x != 0 || direction.y != 0)
+            AnimateMovement(direction);
+        else
+            animator.SetLayerWeight(1, 0);
     }
+
     public void AnimateMovement(Vector2 direction)
     {
-        
+        animator.SetLayerWeight(1, 1);
         animator.SetFloat("x", direction.x);
         animator.SetFloat("y", direction.y);
- 
     }
 }

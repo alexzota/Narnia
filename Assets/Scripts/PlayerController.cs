@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,9 +7,9 @@ public class PlayerController : Character
 {
     // Update is called once per frame
 
-    void Start()
+    protected override void Start()
     {
-        direction = Vector2.left;
+        base.Start();
     }
 
     protected override void Update()
