@@ -78,11 +78,11 @@ C:/Program Files/Unity/Hub/Editor/2018.3.7f1/Editor/Data/PlaybackEngines/Android
 C:/Program Files/Unity/Hub/Editor/2018.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 C:/Program Files/Unity/Hub/Editor/2018.3.7f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
 C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll
-C:/Users/ampsii/Desktop/GitStuff/Narnia/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
-C:/Users/ampsii/Desktop/GitStuff/Narnia/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
-C:/Users/ampsii/Desktop/GitStuff/Narnia/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
-C:/Users/ampsii/Desktop/GitStuff/Narnia/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
-C:/Users/ampsii/Desktop/GitStuff/Narnia/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+C:/Users/ampsii/Desktop/Narnia/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+C:/Users/ampsii/Desktop/Narnia/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+C:/Users/ampsii/Desktop/Narnia/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+C:/Users/ampsii/Desktop/Narnia/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+C:/Users/ampsii/Desktop/Narnia/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
 C:/Program Files/Unity/Hub/Editor/2018.3.7f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll
 C:/Program Files/Unity/Hub/Editor/2018.3.7f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll
 C:\Program Files\Unity\Hub\Editor\2018.3.7f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll
