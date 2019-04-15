@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44856596, g: 0.49482936, b: 0.5553282, a: 1}
+  m_IndirectSpecularColor: {r: 0.4485662, g: 0.49482942, b: 0.5553285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 68358325}
   - component: {fileID: 68358324}
+  - component: {fileID: 68358326}
   m_Layer: 0
   m_Name: SnowyTrees3 (56)
   m_TagString: Untagged
@@ -165,7 +166,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -185,12 +186,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68358323}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.33, y: -2.67, z: -5}
+  m_LocalPosition: {x: 23.67, y: -3.34, z: 0}
   m_LocalScale: {x: 2.36, y: 2.02, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &68358326
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68358323}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3470033, y: -0.03170873}
+  - {x: -0.30265826, y: -0.08069207}
+  - {x: -0.29276913, y: -0.13355172}
+  - {x: -0.29409054, y: -0.18852054}
+  - {x: -0.33668178, y: -0.20382972}
+  - {x: -0.32256418, y: -0.2488572}
+  - {x: -0.35902122, y: -0.25249225}
+  - {x: -0.3289045, y: -0.44860336}
+  - {x: -0.015047042, y: -0.55281067}
+  - {x: 0.14252259, y: -0.53180104}
+  - {x: 0.2375619, y: -0.46100584}
+  - {x: 0.3192643, y: -0.35670716}
+  - {x: 0.33432186, y: -0.17624824}
+  - {x: 0.30797055, y: -0.14770244}
+  - {x: 0.34585646, y: -0.13224277}
+  - {x: 0.32334247, y: -0.07856506}
+  - {x: 0.25905028, y: -0.08058501}
+  - {x: 0.32187074, y: 0.0070242602}
 --- !u!1 &73743207
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73743209}
   - component: {fileID: 73743208}
+  - component: {fileID: 73743210}
   m_Layer: 0
   m_Name: 56531206_362542551022095_5123077432080859136_n (2)
   m_TagString: Untagged
@@ -244,7 +280,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a78d8b87d86335245a715572e9bf2dde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -264,12 +300,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73743207}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.08, y: -0.23, z: -2.4}
+  m_LocalPosition: {x: 14.08, y: -0.23, z: 0}
   m_LocalScale: {x: 1.24, y: 1.24, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &73743210
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73743207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.051699907, y: -0.032312274}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 2.29}
+    newSize: {x: 1.84, y: 2.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.710751, y: 2.1478255}
+  m_EdgeRadius: 0
 --- !u!1 &97468784
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,6 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97468786}
   - component: {fileID: 97468785}
+  - component: {fileID: 97468787}
   m_Layer: 0
   m_Name: SnowyTrees3 (38)
   m_TagString: Untagged
@@ -323,7 +386,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -343,12 +406,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97468784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.22, y: -2.8, z: -5.15}
+  m_LocalPosition: {x: -9.22, y: -2.8, z: 0}
   m_LocalScale: {x: 2.03, y: 1.46, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &97468787
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97468784}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35487723, y: -0.022338023}
+  - {x: -0.28793165, y: -0.09253482}
+  - {x: -0.28372186, y: -0.20162731}
+  - {x: -0.33673298, y: -0.20139967}
+  - {x: -0.32167998, y: -0.23358944}
+  - {x: -0.34862056, y: -0.25769487}
+  - {x: -0.34158123, y: -0.35541233}
+  - {x: -0.33068585, y: -0.4282791}
+  - {x: -0.20606788, y: -0.5061517}
+  - {x: -0.009775866, y: -0.5432623}
+  - {x: 0.13489182, y: -0.53478396}
+  - {x: 0.22469176, y: -0.4577442}
+  - {x: 0.28188732, y: -0.38321653}
+  - {x: 0.3218787, y: -0.28105596}
+  - {x: 0.33024377, y: -0.17989431}
+  - {x: 0.30370203, y: -0.15573402}
+  - {x: 0.33852148, y: -0.12419811}
+  - {x: 0.33251286, y: -0.09206615}
+  - {x: 0.26686954, y: -0.07900832}
+  - {x: 0.31664336, y: 0.0075034895}
 --- !u!1 &99928496
 GameObject:
   m_ObjectHideFlags: 0
@@ -6846,6 +6945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124868695}
   - component: {fileID: 124868694}
+  - component: {fileID: 124868696}
   m_Layer: 0
   m_Name: SnowyTrees3 (6)
   m_TagString: Untagged
@@ -6889,7 +6989,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6909,12 +7009,51 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124868693}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.99, y: 4.95, z: -4.46}
+  m_LocalPosition: {x: -12.17, y: 4.86, z: 0}
   m_LocalScale: {x: 2.03, y: 1.46, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &124868696
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124868693}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35278666, y: -0.027563145}
+  - {x: -0.32344356, y: -0.06802604}
+  - {x: -0.30668238, y: -0.09843649}
+  - {x: -0.28717762, y: -0.16650662}
+  - {x: -0.34203222, y: -0.19788513}
+  - {x: -0.326127, y: -0.23463196}
+  - {x: -0.34191665, y: -0.2601754}
+  - {x: -0.33818606, y: -0.3236826}
+  - {x: -0.33822927, y: -0.3971423}
+  - {x: -0.274412, y: -0.4639021}
+  - {x: -0.025987858, y: -0.5542696}
+  - {x: 0.14252591, y: -0.54946625}
+  - {x: 0.2003665, y: -0.49649423}
+  - {x: 0.25553584, y: -0.43934563}
+  - {x: 0.29757127, y: -0.36782202}
+  - {x: 0.3141215, y: -0.26682827}
+  - {x: 0.33612037, y: -0.21056572}
+  - {x: 0.3095791, y: -0.1544446}
+  - {x: 0.34222388, y: -0.1267482}
+  - {x: 0.33149436, y: -0.08901472}
+  - {x: 0.2711827, y: -0.07189267}
+  - {x: 0.29175434, y: -0.04637698}
+  - {x: 0.3007494, y: -0.024117507}
 --- !u!1 &133388147
 GameObject:
   m_ObjectHideFlags: 0
@@ -6925,6 +7064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 133388149}
   - component: {fileID: 133388148}
+  - component: {fileID: 133388150}
   m_Layer: 0
   m_Name: 56252713_2372668112944581_6191349065473589248_n
   m_TagString: Untagged
@@ -6968,7 +7108,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 5f733da8619ce87489a6388af9a87f14, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6988,12 +7128,44 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133388147}
   m_LocalRotation: {x: 0.0018325554, y: 0, z: 0, w: 0.99999833}
-  m_LocalPosition: {x: 21.05, y: 9.74, z: -4.86}
+  m_LocalPosition: {x: 22.64, y: 10.24, z: 0}
   m_LocalScale: {x: 2.1, y: 1.45, z: 1.0000044}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0.21, y: 0, z: 0}
+--- !u!68 &133388150
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133388147}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.24806069, y: 0.21938089}
+  - {x: -0.24392809, y: 0.2855799}
+  - {x: -0.23300534, y: 0.32639095}
+  - {x: -0.23675011, y: 0.23711056}
+  - {x: -0.23208527, y: 0.32500517}
+  - {x: -0.24404344, y: -0.5092385}
+  - {x: -0.3550684, y: -0.57192796}
+  - {x: -0.36562875, y: -0.6405243}
+  - {x: -0.30411947, y: -0.7157917}
+  - {x: -0.010870071, y: -0.65014976}
+  - {x: -0.046076093, y: -0.5375749}
+  - {x: -0.1446506, y: -0.47432896}
+  - {x: -0.12670153, y: 0.10739133}
+  - {x: -0.13490495, y: 0.097756}
+  - {x: -0.12387776, y: 0.094558254}
+  - {x: -0.122543514, y: 0.08437702}
 --- !u!1 &157749813
 GameObject:
   m_ObjectHideFlags: 0
@@ -7004,6 +7176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 157749815}
   - component: {fileID: 157749814}
+  - component: {fileID: 157749816}
   m_Layer: 0
   m_Name: SnowyTrees3 (47)
   m_TagString: Untagged
@@ -7047,7 +7220,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7067,12 +7240,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157749813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.17, y: 10.7, z: -1.82}
+  m_LocalPosition: {x: 7.84, y: 10.7, z: 0}
   m_LocalScale: {x: 1.77, y: 1.33, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &157749816
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157749813}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35160953, y: -0.030217135}
+  - {x: -0.2981143, y: -0.085374646}
+  - {x: -0.29357332, y: -0.14408298}
+  - {x: -0.29180336, y: -0.2085234}
+  - {x: -0.33412278, y: -0.20565663}
+  - {x: -0.32420403, y: -0.24077696}
+  - {x: -0.34717628, y: -0.2549989}
+  - {x: -0.3385458, y: -0.3665537}
+  - {x: -0.32014957, y: -0.44746828}
+  - {x: -0.017200084, y: -0.5581117}
+  - {x: 0.14617997, y: -0.54112196}
+  - {x: 0.20075816, y: -0.4822186}
+  - {x: 0.28713897, y: -0.4090481}
+  - {x: 0.32985604, y: -0.17764084}
+  - {x: 0.2983309, y: -0.14924142}
+  - {x: 0.33567938, y: -0.11688031}
+  - {x: 0.32060972, y: -0.07737167}
+  - {x: 0.25491393, y: -0.08464182}
+  - {x: 0.32069644, y: 0.014883055}
 --- !u!1 &163732725
 GameObject:
   m_ObjectHideFlags: 0
@@ -7083,6 +7291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163732727}
   - component: {fileID: 163732726}
+  - component: {fileID: 163732728}
   m_Layer: 0
   m_Name: SnowyTrees3 (58)
   m_TagString: Untagged
@@ -7126,7 +7335,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7146,12 +7355,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163732725}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.59, y: 0.74, z: -5}
+  m_LocalPosition: {x: 21.25, y: -3.79, z: 0}
   m_LocalScale: {x: 1.56, y: 1.32, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &163732728
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163732725}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34822074, y: -0.015805526}
+  - {x: -0.31322944, y: -0.08684812}
+  - {x: -0.2897923, y: -0.14077172}
+  - {x: -0.29017255, y: -0.20257126}
+  - {x: -0.3403896, y: -0.20232923}
+  - {x: -0.31754667, y: -0.2551364}
+  - {x: -0.34334967, y: -0.25246757}
+  - {x: -0.35704955, y: -0.2849243}
+  - {x: -0.30422944, y: -0.45677784}
+  - {x: -0.17795196, y: -0.517403}
+  - {x: -0.03282107, y: -0.5504424}
+  - {x: 0.14913388, y: -0.5362435}
+  - {x: 0.2115592, y: -0.48073313}
+  - {x: 0.2855741, y: -0.41136345}
+  - {x: 0.31346908, y: -0.29736108}
+  - {x: 0.32991385, y: -0.19526012}
+  - {x: 0.30060548, y: -0.1623858}
+  - {x: 0.33178085, y: -0.12819262}
+  - {x: 0.33079052, y: -0.089276195}
+  - {x: 0.25711426, y: -0.084079936}
+  - {x: 0.3215313, y: 0.018751983}
 --- !u!1 &165992054
 GameObject:
   m_ObjectHideFlags: 0
@@ -7162,6 +7408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 165992056}
   - component: {fileID: 165992055}
+  - component: {fileID: 165992057}
   m_Layer: 0
   m_Name: SnowyTrees3 (24)
   m_TagString: Untagged
@@ -7205,7 +7452,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7225,12 +7472,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165992054}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.63, y: 10, z: -5}
+  m_LocalPosition: {x: 1.3, y: -1.91, z: 0}
   m_LocalScale: {x: 2.36, y: 2.02, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &165992057
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165992054}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3554191, y: -0.01860916}
+  - {x: -0.30616185, y: -0.1053236}
+  - {x: -0.28891084, y: -0.19444424}
+  - {x: -0.34059304, y: -0.19493806}
+  - {x: -0.3219089, y: -0.2392511}
+  - {x: -0.34337193, y: -0.2566644}
+  - {x: -0.34357077, y: -0.34652779}
+  - {x: -0.32440805, y: -0.4476889}
+  - {x: -0.043508057, y: -0.55121195}
+  - {x: 0.16243787, y: -0.53207505}
+  - {x: 0.2493814, y: -0.4186212}
+  - {x: 0.2914298, y: -0.3434189}
+  - {x: 0.32834592, y: -0.18739837}
+  - {x: 0.2966495, y: -0.14987648}
+  - {x: 0.34138522, y: -0.116366744}
+  - {x: 0.33286336, y: -0.07877864}
+  - {x: 0.27400863, y: -0.06848698}
+  - {x: 0.31660968, y: 0.012784253}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -7310,6 +7591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 214863184}
   - component: {fileID: 214863183}
+  - component: {fileID: 214863185}
   m_Layer: 0
   m_Name: SnowyTrees3 (27)
   m_TagString: Untagged
@@ -7353,7 +7635,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7373,12 +7655,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214863182}
   m_LocalRotation: {x: 0, y: -0.00043630067, z: 0, w: 0.99999994}
-  m_LocalPosition: {x: 2.4, y: 7.94, z: -5}
+  m_LocalPosition: {x: 1.81, y: 1.48, z: 0}
   m_LocalScale: {x: 1.75, y: 1.51, z: 1.0000006}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: -0.05, z: 0}
+--- !u!68 &214863185
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214863182}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3595472, y: -0.011146779}
+  - {x: -0.3037365, y: -0.07624523}
+  - {x: -0.29720518, y: -0.13338533}
+  - {x: -0.29099372, y: -0.1872418}
+  - {x: -0.34479862, y: -0.21102081}
+  - {x: -0.3228671, y: -0.24310295}
+  - {x: -0.34639412, y: -0.2518435}
+  - {x: -0.33141372, y: -0.40744132}
+  - {x: -0.30967885, y: -0.46390608}
+  - {x: -0.024467446, y: -0.55044496}
+  - {x: 0.15410665, y: -0.5423245}
+  - {x: 0.22817263, y: -0.47867194}
+  - {x: 0.27562335, y: -0.42444026}
+  - {x: 0.30083686, y: -0.38707253}
+  - {x: 0.3136478, y: -0.35421997}
+  - {x: 0.31895417, y: -0.25966302}
+  - {x: 0.32048252, y: -0.19635601}
+  - {x: 0.30355972, y: -0.15422043}
+  - {x: 0.33764592, y: -0.12271696}
+  - {x: 0.32335907, y: -0.08238096}
+  - {x: 0.27603847, y: -0.072537035}
+  - {x: 0.30946243, y: 0.016720168}
 --- !u!1 &322034766
 GameObject:
   m_ObjectHideFlags: 0
@@ -7389,6 +7709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 322034768}
   - component: {fileID: 322034767}
+  - component: {fileID: 322034769}
   m_Layer: 0
   m_Name: SnowyTrees3 (23)
   m_TagString: Untagged
@@ -7432,7 +7753,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7452,12 +7773,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322034766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.91, y: 9.1, z: -4.37}
+  m_LocalPosition: {x: 0.91, y: 9.1, z: 0}
   m_LocalScale: {x: 1.6, y: 1.38, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &322034769
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322034766}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35335273, y: -0.022016056}
+  - {x: -0.31558394, y: -0.08161241}
+  - {x: -0.2966385, y: -0.119449094}
+  - {x: -0.2775561, y: -0.19636638}
+  - {x: -0.3372917, y: -0.20397781}
+  - {x: -0.3348789, y: -0.24933954}
+  - {x: -0.34658268, y: -0.27697468}
+  - {x: -0.31811666, y: -0.44330376}
+  - {x: -0.17872798, y: -0.51458263}
+  - {x: -0.018990412, y: -0.5508865}
+  - {x: 0.14012548, y: -0.5358475}
+  - {x: 0.23215818, y: -0.45186263}
+  - {x: 0.30129823, y: -0.3807213}
+  - {x: 0.33162224, y: -0.2808868}
+  - {x: 0.32577205, y: -0.1966048}
+  - {x: 0.30651984, y: -0.16094498}
+  - {x: 0.3254846, y: -0.13420962}
+  - {x: 0.338172, y: -0.09489198}
+  - {x: 0.27321938, y: -0.06682147}
+  - {x: 0.3062604, y: 0.014044582}
 --- !u!1 &331585916
 GameObject:
   m_ObjectHideFlags: 0
@@ -7468,6 +7825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 331585918}
   - component: {fileID: 331585917}
+  - component: {fileID: 331585919}
   m_Layer: 0
   m_Name: SnowyTrees3 (62)
   m_TagString: Untagged
@@ -7511,7 +7869,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7531,12 +7889,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331585916}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.79, y: -1.25, z: -5}
+  m_LocalPosition: {x: 20.79, y: -1.25, z: 0}
   m_LocalScale: {x: 2.23, y: 1.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &331585919
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331585916}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3608464, y: -0.01584172}
+  - {x: -0.32598212, y: -0.05787961}
+  - {x: -0.2914437, y: -0.11566063}
+  - {x: -0.28917456, y: -0.19250391}
+  - {x: -0.3278621, y: -0.20001368}
+  - {x: -0.3248326, y: -0.24561536}
+  - {x: -0.3248326, y: -0.23241399}
+  - {x: -0.34823394, y: -0.24746381}
+  - {x: -0.3446955, y: -0.3557607}
+  - {x: -0.30702326, y: -0.44812438}
+  - {x: -0.16864125, y: -0.5097801}
+  - {x: -0.005810143, y: -0.5439601}
+  - {x: 0.13977872, y: -0.5344852}
+  - {x: 0.2380448, y: -0.48529932}
+  - {x: 0.30395266, y: -0.3750538}
+  - {x: 0.33489877, y: -0.20525356}
+  - {x: 0.3017126, y: -0.15700655}
+  - {x: 0.34822798, y: -0.12324136}
+  - {x: 0.3391796, y: -0.08825266}
+  - {x: 0.26178914, y: -0.07315383}
+  - {x: 0.31588942, y: 0.016788242}
 --- !u!1 &368136638
 GameObject:
   m_ObjectHideFlags: 0
@@ -7547,6 +7942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 368136640}
   - component: {fileID: 368136639}
+  - component: {fileID: 368136641}
   m_Layer: 0
   m_Name: SnowyTrees3 (45)
   m_TagString: Untagged
@@ -7590,7 +7986,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7610,12 +8006,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368136638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.34, y: 7.8, z: -5.88}
+  m_LocalPosition: {x: 9.75, y: 6.46, z: 0}
   m_LocalScale: {x: 1.92, y: 1.63, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &368136641
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368136638}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35430592, y: -0.024103386}
+  - {x: -0.3124128, y: -0.068689704}
+  - {x: -0.29823682, y: -0.106635116}
+  - {x: -0.29297772, y: -0.14349082}
+  - {x: -0.28526437, y: -0.19890895}
+  - {x: -0.3379042, y: -0.19504248}
+  - {x: -0.316904, y: -0.24838124}
+  - {x: -0.352714, y: -0.25239837}
+  - {x: -0.333567, y: -0.38190734}
+  - {x: -0.31795105, y: -0.4524541}
+  - {x: -0.04210969, y: -0.55710316}
+  - {x: 0.1478255, y: -0.5358283}
+  - {x: 0.24217965, y: -0.4642182}
+  - {x: 0.29277256, y: -0.38517615}
+  - {x: 0.32665932, y: -0.25017422}
+  - {x: 0.32459897, y: -0.18063702}
+  - {x: 0.29781115, y: -0.16414928}
+  - {x: 0.33957762, y: -0.13281699}
+  - {x: 0.329797, y: -0.09231128}
+  - {x: 0.263236, y: -0.075710915}
+  - {x: 0.31882724, y: 0.008351378}
 --- !u!1 &439934444
 GameObject:
   m_ObjectHideFlags: 0
@@ -7626,6 +8059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 439934446}
   - component: {fileID: 439934445}
+  - component: {fileID: 439934447}
   m_Layer: 0
   m_Name: SnowyTrees3 (11)
   m_TagString: Untagged
@@ -7669,7 +8103,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7689,12 +8123,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439934444}
   m_LocalRotation: {x: 0, y: -0.00043630067, z: 0, w: 0.99999994}
-  m_LocalPosition: {x: -10.19, y: 9.47, z: -5}
+  m_LocalPosition: {x: -11.95, y: 8.55, z: 0}
   m_LocalScale: {x: 1.75, y: 1.51, z: 1.0000006}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -0.05, z: 0}
+--- !u!68 &439934447
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439934444}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3572942, y: -0.02721698}
+  - {x: -0.3285886, y: -0.057005726}
+  - {x: -0.30799526, y: -0.09303314}
+  - {x: -0.29594138, y: -0.13870087}
+  - {x: -0.29049617, y: -0.19054602}
+  - {x: -0.34459397, y: -0.19885436}
+  - {x: -0.3251679, y: -0.23432283}
+  - {x: -0.34533295, y: -0.24686901}
+  - {x: -0.33400112, y: -0.3675704}
+  - {x: -0.3139244, y: -0.45661768}
+  - {x: -0.1806923, y: -0.50837696}
+  - {x: -0.018940497, y: -0.5469164}
+  - {x: 0.15161727, y: -0.5381294}
+  - {x: 0.2358839, y: -0.4576901}
+  - {x: 0.28127116, y: -0.39263055}
+  - {x: 0.31810036, y: -0.3119519}
+  - {x: 0.33008668, y: -0.23866868}
+  - {x: 0.3306431, y: -0.17865667}
+  - {x: 0.30687702, y: -0.1629482}
+  - {x: 0.33355588, y: -0.14427134}
+  - {x: 0.33238313, y: -0.10074211}
+  - {x: 0.27022105, y: -0.07607669}
 --- !u!1 &452641234
 GameObject:
   m_ObjectHideFlags: 0
@@ -7705,6 +8177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452641236}
   - component: {fileID: 452641235}
+  - component: {fileID: 452641237}
   m_Layer: 0
   m_Name: SnowyTrees3 (46)
   m_TagString: Untagged
@@ -7748,7 +8221,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7768,12 +8241,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452641234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.83, y: 10.48, z: -5}
+  m_LocalPosition: {x: 10.83, y: 10.48, z: 0}
   m_LocalScale: {x: 2.23, y: 1.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &452641237
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452641234}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35659763, y: -0.02395125}
+  - {x: -0.31652707, y: -0.06959522}
+  - {x: -0.30575526, y: -0.10544889}
+  - {x: -0.28990245, y: -0.14453886}
+  - {x: -0.29078555, y: -0.20179972}
+  - {x: -0.33623862, y: -0.1962325}
+  - {x: -0.32319507, y: -0.24518685}
+  - {x: -0.34924236, y: -0.25518304}
+  - {x: -0.34989497, y: -0.32406917}
+  - {x: -0.33252186, y: -0.4542199}
+  - {x: -0.06966227, y: -0.5488564}
+  - {x: 0.14444573, y: -0.53768605}
+  - {x: 0.20803143, y: -0.4691724}
+  - {x: 0.25797188, y: -0.4259457}
+  - {x: 0.2969622, y: -0.36062744}
+  - {x: 0.31720874, y: -0.31915495}
+  - {x: 0.3240072, y: -0.17879821}
+  - {x: 0.2994178, y: -0.15818651}
+  - {x: 0.33822167, y: -0.1254149}
+  - {x: 0.3262062, y: -0.09200937}
+  - {x: 0.26753557, y: -0.07597194}
+  - {x: 0.3180508, y: -0.007983937}
 --- !u!1 &518934159
 GameObject:
   m_ObjectHideFlags: 0
@@ -7784,6 +8295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518934161}
   - component: {fileID: 518934160}
+  - component: {fileID: 518934162}
   m_Layer: 0
   m_Name: SnowyTrees3 (40)
   m_TagString: Untagged
@@ -7827,7 +8339,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7847,12 +8359,51 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518934159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.38, y: 7.35, z: -5}
+  m_LocalPosition: {x: 6.56, y: -0.12, z: 0}
   m_LocalScale: {x: 2.36, y: 2.02, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &518934162
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518934159}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35425323, y: -0.023947956}
+  - {x: -0.33104664, y: -0.04944118}
+  - {x: -0.31126294, y: -0.08365009}
+  - {x: -0.30026942, y: -0.12362761}
+  - {x: -0.2827796, y: -0.18998657}
+  - {x: -0.33976144, y: -0.20679668}
+  - {x: -0.31386817, y: -0.2497222}
+  - {x: -0.33676887, y: -0.25059313}
+  - {x: -0.35454398, y: -0.28666577}
+  - {x: -0.3235415, y: -0.45196742}
+  - {x: -0.04422422, y: -0.5512119}
+  - {x: 0.15730494, y: -0.53502786}
+  - {x: 0.20917857, y: -0.4697369}
+  - {x: 0.24195305, y: -0.44501975}
+  - {x: 0.29704753, y: -0.3846768}
+  - {x: 0.3241555, y: -0.29623973}
+  - {x: 0.31866097, y: -0.25162834}
+  - {x: 0.32831675, y: -0.18101366}
+  - {x: 0.30025324, y: -0.1620318}
+  - {x: 0.34226018, y: -0.12432224}
+  - {x: 0.32526335, y: -0.077865064}
+  - {x: 0.27006865, y: -0.07281118}
+  - {x: 0.32428947, y: 0.015199067}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -7932,8 +8483,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.25, y: 3, z: -40}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4, y: 3.85, z: -40}
+  m_LocalScale: {x: 1, y: 0.19, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -8044,6 +8595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 540173406}
   - component: {fileID: 540173405}
+  - component: {fileID: 540173407}
   m_Layer: 0
   m_Name: SnowyTrees3 (55)
   m_TagString: Untagged
@@ -8087,7 +8639,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8107,12 +8659,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540173404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.22, y: 7.06, z: -4.37}
+  m_LocalPosition: {x: 14.63, y: 5.14, z: 0}
   m_LocalScale: {x: 1.6, y: 1.38, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &540173407
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540173404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35689414, y: -0.016293664}
+  - {x: -0.29499352, y: -0.11917232}
+  - {x: -0.29348195, y: -0.1936567}
+  - {x: -0.3382033, y: -0.20269726}
+  - {x: -0.31885684, y: -0.23574622}
+  - {x: -0.34950197, y: -0.25197595}
+  - {x: -0.3425175, y: -0.32701975}
+  - {x: -0.32997608, y: -0.4609806}
+  - {x: -0.018212795, y: -0.5620155}
+  - {x: 0.14585972, y: -0.53820854}
+  - {x: 0.22290826, y: -0.4518699}
+  - {x: 0.29509068, y: -0.38775328}
+  - {x: 0.3289175, y: -0.25297317}
+  - {x: 0.3274399, y: -0.1731216}
+  - {x: 0.3002864, y: -0.15783551}
+  - {x: 0.3447157, y: -0.12017955}
+  - {x: 0.32880843, y: -0.08377718}
+  - {x: 0.26160896, y: -0.070543915}
+  - {x: 0.32019138, y: 0.0083487965}
 --- !u!1 &578054631
 GameObject:
   m_ObjectHideFlags: 0
@@ -8123,6 +8710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578054633}
   - component: {fileID: 578054632}
+  - component: {fileID: 578054634}
   m_Layer: 0
   m_Name: SnowyTrees3 (4)
   m_TagString: Untagged
@@ -8166,7 +8754,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8186,12 +8774,43 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578054631}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.8, y: 4.5, z: -5}
+  m_LocalPosition: {x: -10.56, y: 4.67, z: 0}
   m_LocalScale: {x: 2.1, y: 1.66, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &578054634
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578054631}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35329455, y: -0.015041053}
+  - {x: -0.31209674, y: -0.09742961}
+  - {x: -0.29865855, y: -0.1591309}
+  - {x: -0.34320015, y: -0.20352846}
+  - {x: -0.34103212, y: -0.37697455}
+  - {x: -0.3077062, y: -0.45682165}
+  - {x: -0.1645229, y: -0.53129125}
+  - {x: -0.03234954, y: -0.5464929}
+  - {x: 0.13761702, y: -0.5485802}
+  - {x: 0.20795323, y: -0.48420918}
+  - {x: 0.28641745, y: -0.40889966}
+  - {x: 0.3266684, y: -0.28345498}
+  - {x: 0.30983698, y: -0.14734326}
+  - {x: 0.33680007, y: -0.105499364}
+  - {x: 0.29384658, y: -0.07019187}
 --- !u!1 &597663743
 GameObject:
   m_ObjectHideFlags: 0
@@ -8202,6 +8821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597663745}
   - component: {fileID: 597663744}
+  - component: {fileID: 597663746}
   m_Layer: 0
   m_Name: SnowyTrees3 (17)
   m_TagString: Untagged
@@ -8245,7 +8865,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8265,12 +8885,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597663743}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.4, y: 7.89, z: -5}
+  m_LocalPosition: {x: 17.4, y: 7.89, z: 0}
   m_LocalScale: {x: 1.7, y: 1.62, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &597663746
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597663743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35830104, y: -0.02101174}
+  - {x: -0.29726925, y: -0.09747258}
+  - {x: -0.29580507, y: -0.15409757}
+  - {x: -0.29169193, y: -0.19819176}
+  - {x: -0.33883148, y: -0.18954071}
+  - {x: -0.31660977, y: -0.23657775}
+  - {x: -0.34405762, y: -0.2575009}
+  - {x: -0.3421458, y: -0.36224523}
+  - {x: -0.31765094, y: -0.46126518}
+  - {x: -0.18110499, y: -0.51179844}
+  - {x: -0.017966101, y: -0.5512838}
+  - {x: 0.13833438, y: -0.53686386}
+  - {x: 0.2079885, y: -0.4955733}
+  - {x: 0.2643237, y: -0.42422113}
+  - {x: 0.29991934, y: -0.35606638}
+  - {x: 0.32242605, y: -0.2840304}
+  - {x: 0.38499996, y: 0}
 --- !u!1 &609302395
 GameObject:
   m_ObjectHideFlags: 0
@@ -8281,6 +8934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 609302397}
   - component: {fileID: 609302396}
+  - component: {fileID: 609302398}
   m_Layer: 0
   m_Name: 56531206_362542551022095_5123077432080859136_n
   m_TagString: Untagged
@@ -8324,7 +8978,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a78d8b87d86335245a715572e9bf2dde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8344,12 +8998,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609302395}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.33, y: -2.15, z: -5}
+  m_LocalPosition: {x: -10.33, y: -2.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &609302398
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609302395}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.045525074, y: -0.05690658}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 2.29}
+    newSize: {x: 1.84, y: 2.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7034254, y: 2.0851371}
+  m_EdgeRadius: 0
 --- !u!1 &633812633
 GameObject:
   m_ObjectHideFlags: 0
@@ -8360,6 +9040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633812635}
   - component: {fileID: 633812634}
+  - component: {fileID: 633812636}
   m_Layer: 0
   m_Name: SnowyTrees3 (48)
   m_TagString: Untagged
@@ -8403,7 +9084,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8423,12 +9104,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633812633}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.43, y: 6.26, z: -5}
+  m_LocalPosition: {x: 22.43, y: 6.26, z: 0}
   m_LocalScale: {x: 1.7, y: 1.44, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &633812636
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633812633}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35144466, y: -0.027962854}
+  - {x: -0.3105657, y: -0.062328238}
+  - {x: -0.30454746, y: -0.09808506}
+  - {x: -0.29081792, y: -0.1433167}
+  - {x: -0.29146755, y: -0.19763474}
+  - {x: -0.33704194, y: -0.20271537}
+  - {x: -0.3219021, y: -0.24524957}
+  - {x: -0.3430344, y: -0.2551777}
+  - {x: -0.34396225, y: -0.3706372}
+  - {x: -0.31985337, y: -0.45989215}
+  - {x: -0.008708729, y: -0.56376684}
+  - {x: 0.11403027, y: -0.5463371}
+  - {x: 0.21977031, y: -0.48404795}
+  - {x: 0.31191656, y: -0.36216408}
+  - {x: 0.32189873, y: -0.28169516}
+  - {x: 0.3382346, y: -0.18970402}
+  - {x: 0.3069799, y: -0.14909703}
+  - {x: 0.33828396, y: -0.11371836}
+  - {x: 0.33015528, y: -0.08320675}
+  - {x: 0.2768954, y: -0.08229414}
+  - {x: 0.31618115, y: 0.007386008}
 --- !u!1 &642817044
 GameObject:
   m_ObjectHideFlags: 0
@@ -8439,6 +9157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 642817046}
   - component: {fileID: 642817045}
+  - component: {fileID: 642817047}
   m_Layer: 0
   m_Name: SnowyTrees3 (25)
   m_TagString: Untagged
@@ -8482,7 +9201,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8502,12 +9221,52 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642817044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.87, y: 10.51, z: -5}
+  m_LocalPosition: {x: -8.45, y: 11.13, z: 0}
   m_LocalScale: {x: 1.48, y: 1.43, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &642817047
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642817044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35247868, y: -0.024479419}
+  - {x: -0.29084295, y: -0.113299176}
+  - {x: -0.27875513, y: -0.17625636}
+  - {x: -0.33742866, y: -0.19703911}
+  - {x: -0.3212993, y: -0.23924154}
+  - {x: -0.3430051, y: -0.24119358}
+  - {x: -0.3385995, y: -0.2877969}
+  - {x: -0.33691123, y: -0.33092165}
+  - {x: -0.34214613, y: -0.39107382}
+  - {x: -0.31692532, y: -0.43248332}
+  - {x: -0.050285056, y: -0.5554853}
+  - {x: 0.15185975, y: -0.54723835}
+  - {x: 0.22362761, y: -0.46407926}
+  - {x: 0.2724551, y: -0.4134365}
+  - {x: 0.2901941, y: -0.41649693}
+  - {x: 0.27320644, y: -0.39483583}
+  - {x: 0.3122623, y: -0.3379095}
+  - {x: 0.32736224, y: -0.18841204}
+  - {x: 0.30903077, y: -0.16086885}
+  - {x: 0.3353483, y: -0.12655926}
+  - {x: 0.33112153, y: -0.094687186}
+  - {x: 0.27514148, y: -0.077705115}
+  - {x: 0.29318333, y: -0.040704556}
+  - {x: 0.30517384, y: 0.024479419}
 --- !u!1 &646279433
 GameObject:
   m_ObjectHideFlags: 0
@@ -8518,6 +9277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 646279435}
   - component: {fileID: 646279434}
+  - component: {fileID: 646279436}
   m_Layer: 0
   m_Name: SnowyTrees3 (36)
   m_TagString: Untagged
@@ -8561,7 +9321,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8581,12 +9341,44 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646279433}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.35, y: -0.86, z: -5}
+  m_LocalPosition: {x: -11.35, y: -0.86, z: 0}
   m_LocalScale: {x: 2.1, y: 1.66, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &646279436
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646279433}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3601147, y: -0.011805669}
+  - {x: -0.31305948, y: -0.07458042}
+  - {x: -0.2747286, y: -0.1257885}
+  - {x: -0.28873488, y: -0.19197464}
+  - {x: -0.33515158, y: -0.19168624}
+  - {x: -0.32561573, y: -0.23085153}
+  - {x: -0.35221055, y: -0.24656898}
+  - {x: -0.3466497, y: -0.33378875}
+  - {x: -0.29919624, y: -0.44223267}
+  - {x: -0.02347583, y: -0.56174415}
+  - {x: 0.27920994, y: -0.5378867}
+  - {x: 0.34968513, y: -0.23109525}
+  - {x: 0.2836727, y: -0.148803}
+  - {x: 0.3507378, y: -0.08278407}
+  - {x: 0.26107925, y: -0.0683624}
+  - {x: 0.3178937, y: 0.026121162}
 --- !u!1 &660992598
 GameObject:
   m_ObjectHideFlags: 0
@@ -8597,6 +9389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 660992600}
   - component: {fileID: 660992599}
+  - component: {fileID: 660992601}
   m_Layer: 0
   m_Name: SnowyTrees3 (20)
   m_TagString: Untagged
@@ -8640,7 +9433,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8660,12 +9453,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660992598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.85, y: 10.37, z: -5}
+  m_LocalPosition: {x: -5.85, y: 10.37, z: 0}
   m_LocalScale: {x: 2.1, y: 1.66, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &660992601
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660992598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35769123, y: -0.020152403}
+  - {x: -0.30267397, y: -0.08270138}
+  - {x: -0.2945682, y: -0.12881842}
+  - {x: -0.28247017, y: -0.19303575}
+  - {x: -0.33412978, y: -0.19701476}
+  - {x: -0.32460463, y: -0.24843562}
+  - {x: -0.3460389, y: -0.23332793}
+  - {x: -0.3340376, y: -0.38842294}
+  - {x: -0.31762692, y: -0.4528362}
+  - {x: -0.22686754, y: -0.4977347}
+  - {x: -0.03537564, y: -0.55771506}
+  - {x: 0.13247217, y: -0.550543}
+  - {x: 0.2122132, y: -0.4716253}
+  - {x: 0.26899043, y: -0.41937542}
+  - {x: 0.31038943, y: -0.36123115}
+  - {x: 0.32090777, y: -0.2743727}
+  - {x: 0.32790798, y: -0.1719946}
+  - {x: 0.30811402, y: -0.1482573}
+  - {x: 0.3405337, y: -0.11467302}
+  - {x: 0.32846314, y: -0.08307423}
+  - {x: 0.26211056, y: -0.07455148}
+  - {x: 0.31672797, y: 0.0028788326}
 --- !u!1 &667611866
 GameObject:
   m_ObjectHideFlags: 0
@@ -8676,6 +9507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 667611868}
   - component: {fileID: 667611867}
+  - component: {fileID: 667611869}
   m_Layer: 0
   m_Name: SnowyTrees3 (50)
   m_TagString: Untagged
@@ -8719,7 +9551,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8739,12 +9571,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667611866}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.64, y: 7.57, z: -5}
+  m_LocalPosition: {x: 19.64, y: 7.57, z: 0}
   m_LocalScale: {x: 1.6, y: 1.48, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &667611869
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667611866}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3572297, y: -0.01412759}
+  - {x: -0.30033946, y: -0.09639167}
+  - {x: -0.2906847, y: -0.14037152}
+  - {x: -0.29526114, y: -0.19859655}
+  - {x: -0.3389299, y: -0.19622783}
+  - {x: -0.3145337, y: -0.24223585}
+  - {x: -0.34564614, y: -0.25190082}
+  - {x: -0.34677863, y: -0.3204884}
+  - {x: -0.31943798, y: -0.45049998}
+  - {x: -0.25972366, y: -0.48002136}
+  - {x: -0.03781557, y: -0.54965246}
+  - {x: 0.15770912, y: -0.5417811}
+  - {x: 0.21384597, y: -0.4724915}
+  - {x: 0.2732432, y: -0.42055395}
+  - {x: 0.30997038, y: -0.3506754}
+  - {x: 0.33042192, y: -0.17930238}
+  - {x: 0.29978156, y: -0.1540777}
+  - {x: 0.33627868, y: -0.12530088}
+  - {x: 0.32577038, y: -0.084372796}
+  - {x: 0.26812792, y: -0.069996476}
+  - {x: 0.31781197, y: 0.0077824336}
 --- !u!1 &708371623
 GameObject:
   m_ObjectHideFlags: 0
@@ -8755,6 +9624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 708371625}
   - component: {fileID: 708371624}
+  - component: {fileID: 708371626}
   m_Layer: 0
   m_Name: SnowyTrees3 (9)
   m_TagString: Untagged
@@ -8798,7 +9668,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8818,12 +9688,52 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708371623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.02, y: 10, z: -5}
+  m_LocalPosition: {x: -0.5, y: 11.51, z: 0}
   m_LocalScale: {x: 1.48, y: 1.43, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &708371626
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708371623}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35144946, y: -0.024039263}
+  - {x: -0.31890744, y: -0.0794324}
+  - {x: -0.300369, y: -0.11908391}
+  - {x: -0.28775415, y: -0.18910761}
+  - {x: -0.3376169, y: -0.19976676}
+  - {x: -0.32544604, y: -0.2415517}
+  - {x: -0.35086983, y: -0.25283307}
+  - {x: -0.33631623, y: -0.40694818}
+  - {x: -0.30932677, y: -0.46438205}
+  - {x: -0.1909606, y: -0.50809634}
+  - {x: -0.014960927, y: -0.5496259}
+  - {x: 0.146035, y: -0.5413562}
+  - {x: 0.19274588, y: -0.5036781}
+  - {x: 0.24458875, y: -0.44615552}
+  - {x: 0.27574039, y: -0.40954244}
+  - {x: 0.3096176, y: -0.35561717}
+  - {x: 0.30609566, y: -0.30185258}
+  - {x: 0.32324585, y: -0.269345}
+  - {x: 0.33888537, y: -0.20704736}
+  - {x: 0.311314, y: -0.15911956}
+  - {x: 0.33078578, y: -0.12439248}
+  - {x: 0.32432237, y: -0.08058548}
+  - {x: 0.26866803, y: -0.0741992}
+  - {x: 0.31273726, y: -0.010684487}
 --- !u!1 &723187469
 GameObject:
   m_ObjectHideFlags: 0
@@ -8834,6 +9744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 723187471}
   - component: {fileID: 723187470}
+  - component: {fileID: 723187472}
   m_Layer: 0
   m_Name: SnowyTrees3 (1)
   m_TagString: Untagged
@@ -8877,7 +9788,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8897,12 +9808,39 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723187469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.1, y: 9.62, z: -5}
+  m_LocalPosition: {x: 18.869, y: 9.62, z: 0}
   m_LocalScale: {x: 1.31, y: 1.09, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &723187472
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723187469}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3707449, y: 0}
+  - {x: -0.3341908, y: -0.0681536}
+  - {x: -0.28192797, y: -0.15313035}
+  - {x: -0.3512288, y: -0.20699546}
+  - {x: -0.31996286, y: -0.46343675}
+  - {x: -0.030888857, y: -0.5482735}
+  - {x: 0.15227486, y: -0.5476418}
+  - {x: 0.30174547, y: -0.34790477}
+  - {x: 0.33553177, y: -0.20324463}
+  - {x: 0.30918705, y: -0.13342866}
+  - {x: 0.34223223, y: -0.06853419}
 --- !u!1 &850146731
 GameObject:
   m_ObjectHideFlags: 0
@@ -9031,6 +9969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852588258}
   - component: {fileID: 852588257}
+  - component: {fileID: 852588259}
   m_Layer: 0
   m_Name: SnowyTrees3 (10)
   m_TagString: Untagged
@@ -9074,7 +10013,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9094,12 +10033,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852588256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.49, y: 9.5, z: -5}
+  m_LocalPosition: {x: -3.72, y: 3.8, z: 0}
   m_LocalScale: {x: 1.56, y: 1.32, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &852588259
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852588256}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35395852, y: -0.022011092}
+  - {x: -0.31317613, y: -0.08415598}
+  - {x: -0.28916, y: -0.1346487}
+  - {x: -0.29006204, y: -0.18983844}
+  - {x: -0.33748135, y: -0.20558852}
+  - {x: -0.3235024, y: -0.242329}
+  - {x: -0.34759918, y: -0.27414796}
+  - {x: -0.34190372, y: -0.3981164}
+  - {x: -0.31332007, y: -0.45383337}
+  - {x: -0.027117364, y: -0.5552608}
+  - {x: 0.15638348, y: -0.5359688}
+  - {x: 0.23025443, y: -0.45758575}
+  - {x: 0.29258883, y: -0.3936482}
+  - {x: 0.32205537, y: -0.29040447}
+  - {x: 0.34007448, y: -0.2404231}
+  - {x: 0.30476025, y: -0.16593897}
+  - {x: 0.3389504, y: -0.12530522}
+  - {x: 0.3285399, y: -0.09851871}
+  - {x: 0.27541122, y: -0.07260604}
+  - {x: 0.31525448, y: -0.005887494}
 --- !u!1 &898372059
 GameObject:
   m_ObjectHideFlags: 0
@@ -9110,6 +10085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 898372061}
   - component: {fileID: 898372060}
+  - component: {fileID: 898372062}
   m_Layer: 0
   m_Name: SnowyTrees3 (12)
   m_TagString: Untagged
@@ -9153,7 +10129,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9173,12 +10149,52 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898372059}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.05, y: 8.53, z: -5}
+  m_LocalPosition: {x: 10.24, y: 0.81, z: 0}
   m_LocalScale: {x: 2.2, y: 1.53, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &898372062
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898372059}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3504155, y: -0.019891705}
+  - {x: -0.30982235, y: -0.08645918}
+  - {x: -0.29908225, y: -0.13648352}
+  - {x: -0.2895104, y: -0.19315675}
+  - {x: -0.34399337, y: -0.19893177}
+  - {x: -0.32400307, y: -0.23352279}
+  - {x: -0.3521954, y: -0.2694471}
+  - {x: -0.33210364, y: -0.33496156}
+  - {x: -0.3395332, y: -0.3937319}
+  - {x: -0.29477987, y: -0.45897877}
+  - {x: -0.16023724, y: -0.5179917}
+  - {x: -0.027860295, y: -0.5361998}
+  - {x: 0.15767011, y: -0.5401223}
+  - {x: 0.20039558, y: -0.49044508}
+  - {x: 0.24768484, y: -0.4329519}
+  - {x: 0.28066766, y: -0.4030095}
+  - {x: 0.31594104, y: -0.34726202}
+  - {x: 0.31444508, y: -0.3149556}
+  - {x: 0.32952917, y: -0.1858657}
+  - {x: 0.3131433, y: -0.16132565}
+  - {x: 0.33772168, y: -0.12975767}
+  - {x: 0.3250378, y: -0.08235663}
+  - {x: 0.26924005, y: -0.06839504}
+  - {x: 0.301997, y: 0}
 --- !u!1 &918295194
 GameObject:
   m_ObjectHideFlags: 0
@@ -9189,6 +10205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918295196}
   - component: {fileID: 918295195}
+  - component: {fileID: 918295197}
   m_Layer: 0
   m_Name: SnowyTrees3 (2)
   m_TagString: Untagged
@@ -9232,7 +10249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9252,12 +10269,42 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918295194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.66, y: 10.01, z: -5}
+  m_LocalPosition: {x: 19.66, y: 10.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &918295197
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918295194}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.385, y: 0}
+  - {x: -0.27234077, y: -0.15704918}
+  - {x: -0.32756996, y: -0.20075417}
+  - {x: -0.33961105, y: -0.36042595}
+  - {x: -0.30654335, y: -0.46008682}
+  - {x: -0.13855362, y: -0.5253477}
+  - {x: -0.0030403137, y: -0.5344324}
+  - {x: 0.1593895, y: -0.5343504}
+  - {x: 0.27363777, y: -0.41843605}
+  - {x: 0.3132801, y: -0.3112707}
+  - {x: 0.32727814, y: -0.22689247}
+  - {x: 0.3274994, y: -0.18529224}
+  - {x: 0.30241203, y: -0.16105747}
+  - {x: 0.36089134, y: -0.08036709}
 --- !u!1 &921989048
 GameObject:
   m_ObjectHideFlags: 0
@@ -9268,7 +10315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921989050}
   - component: {fileID: 921989049}
-  - component: {fileID: 921989052}
+  - component: {fileID: 921989051}
   m_Layer: 0
   m_Name: SnowyTrees3 (53)
   m_TagString: Untagged
@@ -9312,7 +10359,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9332,28 +10379,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921989048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.93, y: 5.25, z: -5}
+  m_LocalPosition: {x: 17.93, y: 5.25, z: 0}
   m_LocalScale: {x: 1.9, y: 1.64, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!208 &921989052
-NavMeshObstacle:
+--- !u!68 &921989051
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921989048}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 0.38500002, y: 0.56, z: 0.38500002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35229635, y: -0.018944392}
+  - {x: -0.30963197, y: -0.08795087}
+  - {x: -0.28851962, y: -0.13648824}
+  - {x: -0.28792432, y: -0.19618739}
+  - {x: -0.33337444, y: -0.1960737}
+  - {x: -0.32160008, y: -0.2531677}
+  - {x: -0.34553528, y: -0.24932449}
+  - {x: -0.33607283, y: -0.40392295}
+  - {x: -0.31722623, y: -0.46035025}
+  - {x: -0.024349816, y: -0.54572153}
+  - {x: 0.13444299, y: -0.5500881}
+  - {x: 0.1918582, y: -0.50110877}
+  - {x: 0.24686413, y: -0.45691147}
+  - {x: 0.3052591, y: -0.388299}
+  - {x: 0.32018864, y: -0.26489234}
+  - {x: 0.33722427, y: -0.18037122}
+  - {x: 0.30591965, y: -0.1494521}
+  - {x: 0.33784065, y: -0.12270765}
+  - {x: 0.32952863, y: -0.09335192}
+  - {x: 0.26528007, y: -0.07153633}
+  - {x: 0.32966414, y: 0.018316653}
 --- !u!1 &967680720
 GameObject:
   m_ObjectHideFlags: 0
@@ -9364,6 +10432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 967680722}
   - component: {fileID: 967680721}
+  - component: {fileID: 967680723}
   m_Layer: 0
   m_Name: SnowyTrees3 (14)
   m_TagString: Untagged
@@ -9407,7 +10476,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9427,12 +10496,51 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967680720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.45, y: 8.18, z: -5}
+  m_LocalPosition: {x: -8.17, y: 8.09, z: 0}
   m_LocalScale: {x: 2.23, y: 1.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &967680723
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967680720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.354222, y: -0.023070503}
+  - {x: -0.29396904, y: -0.09989233}
+  - {x: -0.29093137, y: -0.15093017}
+  - {x: -0.2990248, y: -0.19903435}
+  - {x: -0.34194782, y: -0.19342478}
+  - {x: -0.3273686, y: -0.24234237}
+  - {x: -0.34069052, y: -0.25220168}
+  - {x: -0.33532727, y: -0.37170464}
+  - {x: -0.31494814, y: -0.451988}
+  - {x: -0.027059117, y: -0.55448616}
+  - {x: 0.13910024, y: -0.5429324}
+  - {x: 0.1998527, y: -0.4967664}
+  - {x: 0.25330892, y: -0.4618148}
+  - {x: 0.29866853, y: -0.38132188}
+  - {x: 0.31491223, y: -0.2602061}
+  - {x: 0.33543292, y: -0.1995858}
+  - {x: 0.3047492, y: -0.15726396}
+  - {x: 0.3309209, y: -0.12596045}
+  - {x: 0.33736312, y: -0.09047283}
+  - {x: 0.27639362, y: -0.07713401}
+  - {x: 0.303658, y: 0}
+  - {x: 0.29926127, y: 0}
+  - {x: 0.385, y: 0}
 --- !u!1 &1020306041
 GameObject:
   m_ObjectHideFlags: 0
@@ -9443,6 +10551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1020306043}
   - component: {fileID: 1020306042}
+  - component: {fileID: 1020306044}
   m_Layer: 0
   m_Name: SnowyTrees3 (26)
   m_TagString: Untagged
@@ -9486,7 +10595,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9506,12 +10615,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020306041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.65, y: 9.5, z: -5}
+  m_LocalPosition: {x: -2.65, y: 9.5, z: 0}
   m_LocalScale: {x: 1.56, y: 1.32, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1020306044
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020306041}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3589751, y: -0.02152992}
+  - {x: -0.30424276, y: -0.10062998}
+  - {x: -0.29413074, y: -0.19360961}
+  - {x: -0.33925575, y: -0.20774639}
+  - {x: -0.3170773, y: -0.24008967}
+  - {x: -0.34736183, y: -0.24936488}
+  - {x: -0.3367915, y: -0.37229204}
+  - {x: -0.31512395, y: -0.44379017}
+  - {x: -0.19067144, y: -0.5102786}
+  - {x: -0.012940168, y: -0.55614454}
+  - {x: 0.14125751, y: -0.53563046}
+  - {x: 0.20706502, y: -0.49237698}
+  - {x: 0.28059545, y: -0.41538224}
+  - {x: 0.3106481, y: -0.32687765}
+  - {x: 0.32755414, y: -0.17289177}
+  - {x: 0.3008491, y: -0.16007423}
+  - {x: 0.3437915, y: -0.13629957}
+  - {x: 0.3252647, y: -0.07718332}
+  - {x: 0.27202997, y: -0.07359765}
+  - {x: 0.32254016, y: 0.024604797}
 --- !u!1 &1032897808
 GameObject:
   m_ObjectHideFlags: 0
@@ -9522,6 +10667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032897810}
   - component: {fileID: 1032897809}
+  - component: {fileID: 1032897811}
   m_Layer: 0
   m_Name: SnowyTrees3 (59)
   m_TagString: Untagged
@@ -9565,7 +10711,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9585,12 +10731,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032897808}
   m_LocalRotation: {x: 0, y: -0.00043630067, z: 0, w: 0.99999994}
-  m_LocalPosition: {x: 22.81, y: -0.31, z: -5}
+  m_LocalPosition: {x: 24.32, y: 0.44, z: 0}
   m_LocalScale: {x: 1.75, y: 1.51, z: 1.0000006}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: -0.05, z: 0}
+--- !u!68 &1032897811
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032897808}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3621029, y: -0.011538275}
+  - {x: -0.31188408, y: -0.08760256}
+  - {x: -0.29576427, y: -0.13147597}
+  - {x: -0.2976596, y: -0.19482367}
+  - {x: -0.34376073, y: -0.21284175}
+  - {x: -0.3232039, y: -0.24380568}
+  - {x: -0.34675145, y: -0.24928409}
+  - {x: -0.34980866, y: -0.3846215}
+  - {x: -0.3059626, y: -0.45605922}
+  - {x: -0.042779073, y: -0.5411291}
+  - {x: 0.14646144, y: -0.55770075}
+  - {x: 0.21441098, y: -0.46473122}
+  - {x: 0.2624042, y: -0.41495505}
+  - {x: 0.32993847, y: -0.3179638}
+  - {x: 0.32734448, y: -0.18123771}
+  - {x: 0.2836161, y: -0.14944878}
+  - {x: 0.33295643, y: -0.13907678}
+  - {x: 0.32712865, y: -0.086714454}
+  - {x: 0.25862437, y: -0.079586886}
+  - {x: 0.31777066, y: 0.0076759136}
 --- !u!1 &1043946148
 GameObject:
   m_ObjectHideFlags: 0
@@ -9601,6 +10783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043946150}
   - component: {fileID: 1043946149}
+  - component: {fileID: 1043946151}
   m_Layer: 0
   m_Name: SnowyTrees3 (30)
   m_TagString: Untagged
@@ -9644,7 +10827,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9664,12 +10847,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043946148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.7, y: 5.89, z: -5}
+  m_LocalPosition: {x: 7.87, y: 3.96, z: 0}
   m_LocalScale: {x: 2.23, y: 1.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1043946151
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043946148}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3527451, y: -0.023078777}
+  - {x: -0.30772716, y: -0.06955764}
+  - {x: -0.29683027, y: -0.13117789}
+  - {x: -0.275425, y: -0.20233223}
+  - {x: -0.3417868, y: -0.20587388}
+  - {x: -0.3302183, y: -0.25032547}
+  - {x: -0.35754982, y: -0.24878949}
+  - {x: -0.31944966, y: -0.4429636}
+  - {x: -0.24415474, y: -0.4838608}
+  - {x: 0.0061135655, y: -0.5539005}
+  - {x: 0.13913937, y: -0.53759265}
+  - {x: 0.24078308, y: -0.4457858}
+  - {x: 0.30929497, y: -0.3642176}
+  - {x: 0.3279707, y: -0.252276}
+  - {x: 0.3266557, y: -0.18061455}
+  - {x: 0.30258375, y: -0.1445132}
+  - {x: 0.33786583, y: -0.12115127}
+  - {x: 0.32643372, y: -0.07839847}
+  - {x: 0.26603663, y: -0.06828574}
+  - {x: 0.33808354, y: 0.011539319}
 --- !u!1 &1102795097
 GameObject:
   m_ObjectHideFlags: 0
@@ -9680,6 +10899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102795099}
   - component: {fileID: 1102795098}
+  - component: {fileID: 1102795100}
   m_Layer: 0
   m_Name: SnowyTrees3 (8)
   m_TagString: Untagged
@@ -9723,7 +10943,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9743,12 +10963,54 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102795097}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.98, y: 8.21, z: -5}
+  m_LocalPosition: {x: -4.98, y: 8.21, z: 0}
   m_LocalScale: {x: 2.36, y: 2.02, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1102795100
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102795097}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34999302, y: -0.023370687}
+  - {x: -0.3144527, y: -0.081647746}
+  - {x: -0.29221693, y: -0.12959845}
+  - {x: -0.2977137, y: -0.19190124}
+  - {x: -0.34056073, y: -0.19913052}
+  - {x: -0.32185033, y: -0.23776141}
+  - {x: -0.3473779, y: -0.24999204}
+  - {x: -0.348433, y: -0.30349553}
+  - {x: -0.34576857, y: -0.34614697}
+  - {x: -0.3103614, y: -0.45537856}
+  - {x: -0.15850107, y: -0.51414096}
+  - {x: -0.1515346, y: -0.5235285}
+  - {x: -0.0190945, y: -0.53532314}
+  - {x: 0.1406421, y: -0.5472774}
+  - {x: 0.20772745, y: -0.4876031}
+  - {x: 0.24797392, y: -0.44257477}
+  - {x: 0.2883206, y: -0.38701096}
+  - {x: 0.3106669, y: -0.3305072}
+  - {x: 0.3213036, y: -0.27558452}
+  - {x: 0.32778496, y: -0.18674101}
+  - {x: 0.30190197, y: -0.16340691}
+  - {x: 0.33869117, y: -0.12533878}
+  - {x: 0.33502135, y: -0.09958202}
+  - {x: 0.27607518, y: -0.0746085}
+  - {x: 0.30258247, y: -0.0337799}
+  - {x: 0.2999829, y: -0.035056505}
 --- !u!1 &1129187930
 GameObject:
   m_ObjectHideFlags: 0
@@ -9759,6 +11021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1129187932}
   - component: {fileID: 1129187931}
+  - component: {fileID: 1129187933}
   m_Layer: 0
   m_Name: SnowyTrees3 (33)
   m_TagString: Untagged
@@ -9802,7 +11065,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9822,12 +11085,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129187930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.43, y: -2.89, z: -5}
+  m_LocalPosition: {x: -11.43, y: -2.89, z: 0}
   m_LocalScale: {x: 1.31, y: 1.09, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1129187933
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129187930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35898852, y: -0.015630417}
+  - {x: -0.314433, y: -0.07371116}
+  - {x: -0.29307723, y: -0.12395404}
+  - {x: -0.28774977, y: -0.19441898}
+  - {x: -0.34231523, y: -0.21095867}
+  - {x: -0.32560408, y: -0.24058886}
+  - {x: -0.34546673, y: -0.25250256}
+  - {x: -0.33184958, y: -0.4367166}
+  - {x: -0.07440699, y: -0.5497762}
+  - {x: 0.14512813, y: -0.53453493}
+  - {x: 0.25095978, y: -0.4368058}
+  - {x: 0.30986118, y: -0.37359515}
+  - {x: 0.3092453, y: -0.28418314}
+  - {x: 0.3317542, y: -0.19860466}
+  - {x: 0.3345053, y: -0.09292966}
+  - {x: 0.262192, y: -0.06984046}
+  - {x: 0.33809358, y: 0.014093601}
 --- !u!1 &1140002818
 GameObject:
   m_ObjectHideFlags: 0
@@ -9838,6 +11134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1140002820}
   - component: {fileID: 1140002819}
+  - component: {fileID: 1140002821}
   m_Layer: 0
   m_Name: SnowyTrees3 (13)
   m_TagString: Untagged
@@ -9881,7 +11178,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9901,11 +11198,108 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140002818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.03, y: 7.89, z: -5.88}
+  m_LocalPosition: {x: 15.03, y: -3.52, z: 0}
   m_LocalScale: {x: 1.92, y: 1.63, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1140002821
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140002818}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34872743, y: -0.018692454}
+  - {x: -0.31207404, y: -0.0780047}
+  - {x: -0.29966187, y: -0.13803908}
+  - {x: -0.29355636, y: -0.1987349}
+  - {x: -0.33651444, y: -0.1906977}
+  - {x: -0.32328418, y: -0.23751725}
+  - {x: -0.3447553, y: -0.25406015}
+  - {x: -0.3372724, y: -0.38893119}
+  - {x: -0.31273666, y: -0.46456134}
+  - {x: -0.15737565, y: -0.52357125}
+  - {x: -0.01979371, y: -0.55437726}
+  - {x: 0.13399622, y: -0.53623027}
+  - {x: 0.16896626, y: -0.51224655}
+  - {x: 0.20538968, y: -0.4900432}
+  - {x: 0.24656755, y: -0.43518615}
+  - {x: 0.2856349, y: -0.39520466}
+  - {x: 0.30722272, y: -0.3454097}
+  - {x: 0.33154392, y: -0.28773683}
+  - {x: 0.3232961, y: -0.19523439}
+  - {x: 0.30071986, y: -0.1582346}
+  - {x: 0.33741546, y: -0.1266434}
+  - {x: 0.3265113, y: -0.08998794}
+  - {x: 0.27226362, y: -0.07971225}
+  - {x: 0.3124555, y: 0.010681444}
+--- !u!1 &1158016826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158016828}
+  - component: {fileID: 1158016827}
+  m_Layer: 0
+  m_Name: GranitaHartaJos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1158016827
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158016826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.080221, y: -0.04636669}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 40.3186, y: 1.0927334}
+  m_EdgeRadius: 0
+--- !u!4 &1158016828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158016826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3349804, y: -4.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1166354154
 GameObject:
@@ -9917,6 +11311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166354156}
   - component: {fileID: 1166354155}
+  - component: {fileID: 1166354157}
   m_Layer: 0
   m_Name: SnowyTrees3 (29)
   m_TagString: Untagged
@@ -9960,7 +11355,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9980,12 +11375,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166354154}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.36, y: 8.07, z: -5.88}
+  m_LocalPosition: {x: 0.68, y: 5.55, z: 0}
   m_LocalScale: {x: 1.92, y: 1.63, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1166354157
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166354154}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3645515, y: -0.01605771}
+  - {x: -0.30590788, y: -0.07303799}
+  - {x: -0.30098522, y: -0.13575232}
+  - {x: -0.29175082, y: -0.19318515}
+  - {x: -0.34753254, y: -0.20028009}
+  - {x: -0.32340875, y: -0.2381743}
+  - {x: -0.35652497, y: -0.26267964}
+  - {x: -0.32907718, y: -0.40776274}
+  - {x: -0.31091413, y: -0.46163216}
+  - {x: -0.020012323, y: -0.55958563}
+  - {x: 0.15066789, y: -0.5353076}
+  - {x: 0.20127785, y: -0.480524}
+  - {x: 0.2844736, y: -0.4152871}
+  - {x: 0.33157268, y: -0.20465703}
+  - {x: 0.30027, y: -0.15652545}
+  - {x: 0.33707517, y: -0.1213805}
+  - {x: 0.3287187, y: -0.08954884}
+  - {x: 0.2677643, y: -0.07244853}
+  - {x: 0.31456622, y: 0.01605771}
 --- !u!1 &1173019270
 GameObject:
   m_ObjectHideFlags: 0
@@ -10069,6 +11499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173052205}
   - component: {fileID: 1173052204}
+  - component: {fileID: 1173052206}
   m_Layer: 0
   m_Name: SnowyTrees3 (39)
   m_TagString: Untagged
@@ -10112,7 +11543,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10132,12 +11563,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173052203}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.37, y: 6.38, z: -4.37}
+  m_LocalPosition: {x: -7.95, y: 5.21, z: 0}
   m_LocalScale: {x: 1.6, y: 1.38, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1173052206
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173052203}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3502977, y: -0.026152445}
+  - {x: -0.30302346, y: -0.08511647}
+  - {x: -0.29484868, y: -0.12929612}
+  - {x: -0.28957605, y: -0.20191151}
+  - {x: -0.33599496, y: -0.20012441}
+  - {x: -0.32008946, y: -0.24400137}
+  - {x: -0.35704076, y: -0.25499904}
+  - {x: -0.3368801, y: -0.38406676}
+  - {x: -0.30165493, y: -0.45967585}
+  - {x: -0.020662248, y: -0.55637807}
+  - {x: 0.14092833, y: -0.5458507}
+  - {x: 0.20876378, y: -0.49769083}
+  - {x: 0.27811438, y: -0.40934432}
+  - {x: 0.3148499, y: -0.331218}
+  - {x: 0.31531036, y: -0.2455048}
+  - {x: 0.33515573, y: -0.19285333}
+  - {x: 0.2999127, y: -0.16700323}
+  - {x: 0.34225166, y: -0.10140495}
+  - {x: 0.26614517, y: -0.06301576}
+  - {x: 0.31477988, y: 0.00581534}
 --- !u!1 &1175699401
 GameObject:
   m_ObjectHideFlags: 0
@@ -10148,6 +11615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1175699403}
   - component: {fileID: 1175699402}
+  - component: {fileID: 1175699404}
   m_Layer: 0
   m_Name: SnowyTrees3 (7)
   m_TagString: Untagged
@@ -10191,7 +11659,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10211,11 +11679,108 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175699401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.6, y: 4.33, z: -4.37}
-  m_LocalScale: {x: 1.6, y: 1.38, z: 1}
+  m_LocalPosition: {x: -13.28, y: 4.25, z: 0}
+  m_LocalScale: {x: 1.574624, y: 1.3581132, z: 0.98414}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1175699404
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175699401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3497823, y: -0.022271847}
+  - {x: -0.32032943, y: -0.07105967}
+  - {x: -0.2985744, y: -0.105399966}
+  - {x: -0.2777351, y: -0.16620673}
+  - {x: -0.33290458, y: -0.20359495}
+  - {x: -0.32083938, y: -0.23703328}
+  - {x: -0.34837535, y: -0.26276207}
+  - {x: -0.33368343, y: -0.36063072}
+  - {x: -0.3327247, y: -0.4024581}
+  - {x: -0.30560723, y: -0.45499045}
+  - {x: -0.07337173, y: -0.55481315}
+  - {x: 0.14129561, y: -0.547684}
+  - {x: 0.21737704, y: -0.481376}
+  - {x: 0.25277862, y: -0.4331048}
+  - {x: 0.28673086, y: -0.38546297}
+  - {x: 0.31253892, y: -0.3441775}
+  - {x: 0.30580226, y: -0.30756366}
+  - {x: 0.32578817, y: -0.25852796}
+  - {x: 0.33890355, y: -0.20299985}
+  - {x: 0.30416214, y: -0.15489246}
+  - {x: 0.33029783, y: -0.13193104}
+  - {x: 0.33642885, y: -0.10481644}
+  - {x: 0.27421144, y: -0.07800624}
+  - {x: 0.31776628, y: -0.0037118574}
+--- !u!1 &1198304758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1198304760}
+  - component: {fileID: 1198304759}
+  m_Layer: 0
+  m_Name: GranitaHartaStanga
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1198304759
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198304758}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -2.575533}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 17.077492}
+  m_EdgeRadius: 0
+--- !u!4 &1198304760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198304758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.46, y: 6.1264277, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1235960850
 GameObject:
@@ -10227,6 +11792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1235960852}
   - component: {fileID: 1235960851}
+  - component: {fileID: 1235960853}
   m_Layer: 0
   m_Name: SnowyTrees3 (21)
   m_TagString: Untagged
@@ -10270,7 +11836,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10290,12 +11856,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235960850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.29, y: 7.29, z: -5}
+  m_LocalPosition: {x: -2.89, y: -0.01, z: 0}
   m_LocalScale: {x: 1.9, y: 1.64, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1235960853
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235960850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35082027, y: -0.0213222}
+  - {x: -0.30418912, y: -0.10216277}
+  - {x: -0.2851682, y: -0.19265224}
+  - {x: -0.32996655, y: -0.19738674}
+  - {x: -0.32246366, y: -0.23814233}
+  - {x: -0.34639725, y: -0.25948435}
+  - {x: -0.3380216, y: -0.38308012}
+  - {x: -0.31915188, y: -0.46341377}
+  - {x: -0.18907611, y: -0.50937563}
+  - {x: -0.039196014, y: -0.55219054}
+  - {x: 0.156219, y: -0.5405256}
+  - {x: 0.24441369, y: -0.46119377}
+  - {x: 0.30173188, y: -0.3634429}
+  - {x: 0.3313618, y: -0.20996457}
+  - {x: 0.31366688, y: -0.15572771}
+  - {x: 0.34915236, y: -0.11680097}
+  - {x: 0.33464584, y: -0.07870342}
+  - {x: 0.26355982, y: -0.08142543}
+  - {x: 0.31926984, y: 0.012184095}
 --- !u!1 &1238316985
 GameObject:
   m_ObjectHideFlags: 0
@@ -10306,6 +11907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238316987}
   - component: {fileID: 1238316986}
+  - component: {fileID: 1238316988}
   m_Layer: 0
   m_Name: SnowyTrees3 (3)
   m_TagString: Untagged
@@ -10349,7 +11951,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10369,12 +11971,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238316985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.42, y: 9.87, z: -4.63}
+  m_LocalPosition: {x: 21.34, y: 10.88, z: 0}
   m_LocalScale: {x: 1.26, y: 1.24, z: 0.09}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1238316988
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238316985}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3550545, y: -0.025356203}
+  - {x: -0.30830023, y: -0.09223031}
+  - {x: -0.29702264, y: -0.15141042}
+  - {x: -0.3407312, y: -0.21190876}
+  - {x: -0.35807598, y: -0.26092762}
+  - {x: -0.32417512, y: -0.4296234}
+  - {x: -0.25026536, y: -0.5001999}
+  - {x: -0.026218478, y: -0.5515122}
+  - {x: 0.14353102, y: -0.5361319}
+  - {x: 0.24155816, y: -0.4617576}
+  - {x: 0.30840316, y: -0.3558582}
+  - {x: 0.32626262, y: -0.2556609}
+  - {x: 0.3341115, y: -0.1936382}
+  - {x: 0.29950523, y: -0.15952511}
+  - {x: 0.3327915, y: -0.13748832}
+  - {x: 0.3342326, y: -0.124111496}
+  - {x: 0.33519083, y: -0.09202189}
 --- !u!1 &1240341791
 GameObject:
   m_ObjectHideFlags: 0
@@ -10385,6 +12020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240341793}
   - component: {fileID: 1240341792}
+  - component: {fileID: 1240341794}
   m_Layer: 0
   m_Name: SnowyTrees3 (19)
   m_TagString: Untagged
@@ -10428,7 +12064,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10448,12 +12084,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240341791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.4, y: 9.87, z: -4.63}
+  m_LocalPosition: {x: 13.4, y: 9.87, z: 0}
   m_LocalScale: {x: 2, y: 1.66, z: 0.09}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1240341794
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240341791}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35801744, y: -0.028445924}
+  - {x: -0.30389547, y: -0.0957334}
+  - {x: -0.29842186, y: -0.14195098}
+  - {x: -0.2907772, y: -0.19185515}
+  - {x: -0.34254646, y: -0.2072863}
+  - {x: -0.32557583, y: -0.23564202}
+  - {x: -0.34597683, y: -0.2638972}
+  - {x: -0.32471704, y: -0.43974155}
+  - {x: -0.21933413, y: -0.49742332}
+  - {x: -0.15837002, y: -0.50717324}
+  - {x: 0.009113789, y: -0.548596}
+  - {x: 0.13672972, y: -0.54035133}
+  - {x: 0.20293379, y: -0.48920164}
+  - {x: 0.25437784, y: -0.44379467}
+  - {x: 0.30270958, y: -0.35573834}
+  - {x: 0.31635618, y: -0.2530029}
+  - {x: 0.33727074, y: -0.2046028}
+  - {x: 0.30586147, y: -0.16347587}
+  - {x: 0.3308406, y: -0.12581147}
+  - {x: 0.32342768, y: -0.08646954}
+  - {x: 0.2700739, y: -0.07051043}
+  - {x: 0.32091618, y: 0.008127488}
 --- !u!1 &1287513645
 GameObject:
   m_ObjectHideFlags: 0
@@ -10464,6 +12138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1287513647}
   - component: {fileID: 1287513646}
+  - component: {fileID: 1287513648}
   m_Layer: 0
   m_Name: SnowyTrees3 (63)
   m_TagString: Untagged
@@ -10507,7 +12182,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10527,12 +12202,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287513645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.06, y: -2.39, z: -5}
+  m_LocalPosition: {x: 19.06, y: -2.39, z: 0}
   m_LocalScale: {x: 1.77, y: 1.33, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1287513648
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287513645}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3582141, y: -0.0129628}
+  - {x: -0.3197751, y: -0.07515456}
+  - {x: -0.28602365, y: -0.13406599}
+  - {x: -0.29361534, y: -0.20398232}
+  - {x: -0.32871488, y: -0.1954785}
+  - {x: -0.31988502, y: -0.2461256}
+  - {x: -0.34058246, y: -0.25493202}
+  - {x: -0.33750805, y: -0.38220775}
+  - {x: -0.30924588, y: -0.4543197}
+  - {x: -0.020847214, y: -0.5573911}
+  - {x: 0.14046384, y: -0.551569}
+  - {x: 0.22743249, y: -0.46940458}
+  - {x: 0.2881918, y: -0.38053128}
+  - {x: 0.32775256, y: -0.3033518}
+  - {x: 0.33931303, y: -0.19284926}
+  - {x: 0.2960216, y: -0.15774705}
+  - {x: 0.33987987, y: -0.11886905}
+  - {x: 0.3253366, y: -0.09898673}
+  - {x: 0.2699685, y: -0.065619245}
+  - {x: 0.3168171, y: 0.0129628}
 --- !u!1 &1308013043
 GameObject:
   m_ObjectHideFlags: 0
@@ -10543,6 +12254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308013045}
   - component: {fileID: 1308013044}
+  - component: {fileID: 1308013046}
   m_Layer: 0
   m_Name: SnowyTrees3 (54)
   m_TagString: Untagged
@@ -10586,7 +12298,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10606,12 +12318,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308013043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.41, y: 2.82, z: -4.46}
+  m_LocalPosition: {x: 24.93, y: 5.58, z: 0}
   m_LocalScale: {x: 2.03, y: 1.46, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1308013046
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308013043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34926277, y: -0.02032698}
+  - {x: -0.3184727, y: -0.06605239}
+  - {x: -0.30259004, y: -0.1195202}
+  - {x: -0.2941075, y: -0.19520961}
+  - {x: -0.34655866, y: -0.19860168}
+  - {x: -0.3192103, y: -0.25037345}
+  - {x: -0.34700024, y: -0.25857604}
+  - {x: -0.3384792, y: -0.3690543}
+  - {x: -0.31199148, y: -0.45408806}
+  - {x: -0.019809177, y: -0.5575382}
+  - {x: 0.1320261, y: -0.54343987}
+  - {x: 0.21729773, y: -0.46516734}
+  - {x: 0.29393837, y: -0.37861717}
+  - {x: 0.3327299, y: -0.2694267}
+  - {x: 0.33312452, y: -0.18214394}
+  - {x: 0.2996745, y: -0.1634921}
+  - {x: 0.34150088, y: -0.09245218}
+  - {x: 0.26483768, y: -0.08183211}
+  - {x: 0.30943206, y: -0.0036233088}
 --- !u!1 &1335468673
 GameObject:
   m_ObjectHideFlags: 0
@@ -10622,6 +12369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335468675}
   - component: {fileID: 1335468674}
+  - component: {fileID: 1335468676}
   m_Layer: 0
   m_Name: SnowyTrees3 (32)
   m_TagString: Untagged
@@ -10665,7 +12413,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10685,12 +12433,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335468673}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.82, y: 10.51, z: -5}
+  m_LocalPosition: {x: 14.82, y: 10.51, z: 0}
   m_LocalScale: {x: 1.33, y: 1.12, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1335468676
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335468673}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35981774, y: -0.021359751}
+  - {x: -0.28433335, y: -0.09386285}
+  - {x: -0.27142575, y: -0.18728292}
+  - {x: -0.33218414, y: -0.2012551}
+  - {x: -0.3334031, y: -0.23091777}
+  - {x: -0.35673085, y: -0.25850877}
+  - {x: -0.3455241, y: -0.3323189}
+  - {x: -0.3063668, y: -0.4430652}
+  - {x: -0.03821581, y: -0.5485331}
+  - {x: 0.1512721, y: -0.54641795}
+  - {x: 0.2213141, y: -0.4835027}
+  - {x: 0.3050209, y: -0.39138967}
+  - {x: 0.3136183, y: -0.26066986}
+  - {x: 0.35102743, y: -0.21142535}
+  - {x: 0.30581108, y: -0.16555446}
+  - {x: 0.35382894, y: -0.11883634}
+  - {x: 0.28097898, y: -0.07255674}
+  - {x: 0.32744157, y: 0.025631702}
 --- !u!1 &1345832864
 GameObject:
   m_ObjectHideFlags: 0
@@ -10701,6 +12483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1345832866}
   - component: {fileID: 1345832865}
+  - component: {fileID: 1345832867}
   m_Layer: 0
   m_Name: SnowyTrees3 (35)
   m_TagString: Untagged
@@ -10744,7 +12527,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10764,12 +12547,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345832864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.22, y: -0.42, z: -4.63}
+  m_LocalPosition: {x: -10.22, y: -0.42, z: 0}
   m_LocalScale: {x: 1.26, y: 1.24, z: 0.09}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1345832867
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345832864}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.38500005, y: 0}
+  - {x: -0.2920378, y: -0.118540406}
+  - {x: -0.29006916, y: -0.1919656}
+  - {x: -0.357835, y: -0.20060422}
+  - {x: -0.3060296, y: -0.23511134}
+  - {x: -0.34607482, y: -0.25611475}
+  - {x: -0.33066994, y: -0.40120843}
+  - {x: -0.31189847, y: -0.45377973}
+  - {x: -0.03643263, y: -0.55229676}
+  - {x: 0.13244948, y: -0.5439858}
+  - {x: 0.21125099, y: -0.48834965}
+  - {x: 0.2703054, y: -0.42680246}
+  - {x: 0.30961645, y: -0.35650465}
+  - {x: 0.33508864, y: -0.19258073}
+  - {x: 0.30266446, y: -0.1468466}
+  - {x: 0.32948467, y: -0.13917808}
+  - {x: 0.33288988, y: -0.08607481}
+  - {x: 0.26937366, y: -0.076500766}
+  - {x: 0.32318512, y: 0.04187431}
 --- !u!1 &1397891384
 GameObject:
   m_ObjectHideFlags: 0
@@ -10780,6 +12598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1397891386}
   - component: {fileID: 1397891385}
+  - component: {fileID: 1397891387}
   m_Layer: 0
   m_Name: SnowyTrees3 (49)
   m_TagString: Untagged
@@ -10823,7 +12642,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10843,12 +12662,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397891384}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.81, y: 3.8, z: -5}
+  m_LocalPosition: {x: 22.99, y: 2.71, z: 0}
   m_LocalScale: {x: 1.7, y: 1.62, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1397891387
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397891384}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34997827, y: -0.02450104}
+  - {x: -0.300873, y: -0.08353083}
+  - {x: -0.29162797, y: -0.13082674}
+  - {x: -0.28976664, y: -0.19440474}
+  - {x: -0.34261927, y: -0.19938137}
+  - {x: -0.32168555, y: -0.2478863}
+  - {x: -0.3463341, y: -0.25730765}
+  - {x: -0.335166, y: -0.41476253}
+  - {x: -0.2366234, y: -0.500371}
+  - {x: -0.005375357, y: -0.53583354}
+  - {x: 0.1551785, y: -0.535305}
+  - {x: 0.21297342, y: -0.475695}
+  - {x: 0.27000424, y: -0.41395852}
+  - {x: 0.29833624, y: -0.3652502}
+  - {x: 0.3235873, y: -0.29001972}
+  - {x: 0.32534766, y: -0.17746039}
+  - {x: 0.29886243, y: -0.15243925}
+  - {x: 0.33842197, y: -0.12658775}
+  - {x: 0.32900977, y: -0.08406536}
+  - {x: 0.26482636, y: -0.074281074}
+  - {x: 0.3146968, y: 0}
 --- !u!1 &1438479396
 GameObject:
   m_ObjectHideFlags: 0
@@ -10859,6 +12715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1438479398}
   - component: {fileID: 1438479397}
+  - component: {fileID: 1438479399}
   m_Layer: 0
   m_Name: SnowyTrees3 (51)
   m_TagString: Untagged
@@ -10902,7 +12759,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10922,12 +12779,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438479396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.33, y: -2.62, z: -4.63}
+  m_LocalPosition: {x: -6.33, y: -2.62, z: 0}
   m_LocalScale: {x: 2, y: 1.66, z: 0.09}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1438479399
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438479396}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3498869, y: -0.01903715}
+  - {x: -0.31668758, y: -0.08102268}
+  - {x: -0.29992294, y: -0.13344935}
+  - {x: -0.29638934, y: -0.20079584}
+  - {x: -0.33904672, y: -0.19876929}
+  - {x: -0.3256235, y: -0.24665494}
+  - {x: -0.35313773, y: -0.2568679}
+  - {x: -0.33388948, y: -0.4304985}
+  - {x: -0.19416547, y: -0.5214701}
+  - {x: -0.0072665215, y: -0.5515771}
+  - {x: 0.13927531, y: -0.53672594}
+  - {x: 0.20846772, y: -0.4783379}
+  - {x: 0.2666905, y: -0.41464412}
+  - {x: 0.31547046, y: -0.33386186}
+  - {x: 0.33823085, y: -0.176635}
+  - {x: 0.3005824, y: -0.15818542}
+  - {x: 0.34178448, y: -0.13707173}
+  - {x: 0.33022594, y: -0.07995568}
+  - {x: 0.2570095, y: -0.08837071}
+  - {x: 0.3261876, y: 0.0044286973}
 --- !u!1 &1455891067
 GameObject:
   m_ObjectHideFlags: 0
@@ -10938,6 +12831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1455891069}
   - component: {fileID: 1455891068}
+  - component: {fileID: 1455891070}
   m_Layer: 0
   m_Name: SnowyTrees3 (16)
   m_TagString: Untagged
@@ -10981,7 +12875,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11001,12 +12895,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455891067}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.96, y: 9.24, z: -5}
+  m_LocalPosition: {x: 13.02, y: 7.06, z: 0}
   m_LocalScale: {x: 1.7, y: 1.44, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1455891070
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455891067}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35659227, y: -0.030183457}
+  - {x: -0.32417688, y: -0.07784432}
+  - {x: -0.30018467, y: -0.12198784}
+  - {x: -0.288703, y: -0.18465616}
+  - {x: -0.3435146, y: -0.20606714}
+  - {x: -0.3190405, y: -0.23625953}
+  - {x: -0.3545514, y: -0.24350117}
+  - {x: -0.32730156, y: -0.44235715}
+  - {x: -0.19295971, y: -0.5069944}
+  - {x: -0.0104096355, y: -0.5428416}
+  - {x: 0.14686303, y: -0.53768086}
+  - {x: 0.21208987, y: -0.48108593}
+  - {x: 0.2656078, y: -0.42248064}
+  - {x: 0.29452828, y: -0.37040606}
+  - {x: 0.32471934, y: -0.29332006}
+  - {x: 0.32904455, y: -0.18679829}
+  - {x: 0.3079981, y: -0.15667112}
+  - {x: 0.3451179, y: -0.12103483}
+  - {x: 0.31973836, y: -0.0926872}
+  - {x: 0.27357662, y: -0.073180586}
+  - {x: 0.30599424, y: -0.008665521}
+  - {x: 0.31114015, y: -0.0067078397}
 --- !u!1001 &1469946761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12468,6 +14400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472150399}
   - component: {fileID: 1472150398}
+  - component: {fileID: 1472150400}
   m_Layer: 0
   m_Name: SnowyTrees3 (57)
   m_TagString: Untagged
@@ -12511,7 +14444,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12531,12 +14464,53 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472150397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.88, y: 2.01, z: -5}
+  m_LocalPosition: {x: 17.95, y: 2.01, z: 0}
   m_LocalScale: {x: 1.48, y: 1.43, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1472150400
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472150397}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34643766, y: -0.028507443}
+  - {x: -0.34873807, y: -0.025707275}
+  - {x: -0.31129605, y: -0.06426006}
+  - {x: -0.29292494, y: -0.113927156}
+  - {x: -0.2804576, y: -0.15919167}
+  - {x: -0.2947511, y: -0.19964789}
+  - {x: -0.33484408, y: -0.19729863}
+  - {x: -0.33502322, y: -0.22199246}
+  - {x: -0.32091013, y: -0.25314835}
+  - {x: -0.34503293, y: -0.25011042}
+  - {x: -0.33609158, y: -0.3802268}
+  - {x: -0.31316733, y: -0.45294562}
+  - {x: -0.2165382, y: -0.5000695}
+  - {x: -0.023362443, y: -0.5488947}
+  - {x: 0.15790398, y: -0.5391302}
+  - {x: 0.23202896, y: -0.4671223}
+  - {x: 0.284954, y: -0.38785452}
+  - {x: 0.30971992, y: -0.34411436}
+  - {x: 0.3283707, y: -0.18180625}
+  - {x: 0.30115104, y: -0.16086969}
+  - {x: 0.33177298, y: -0.13385044}
+  - {x: 0.32976383, y: -0.093749434}
+  - {x: 0.2588388, y: -0.069036104}
+  - {x: 0.29159367, y: -0.062985525}
+  - {x: 0.31516358, y: -0.02141599}
 --- !u!1 &1515295020
 GameObject:
   m_ObjectHideFlags: 0
@@ -12547,6 +14521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1515295022}
   - component: {fileID: 1515295021}
+  - component: {fileID: 1515295023}
   m_Layer: 0
   m_Name: SnowyTrees3
   m_TagString: Untagged
@@ -12590,7 +14565,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12610,11 +14585,156 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515295020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.3, y: 9.4, z: -5}
+  m_LocalPosition: {x: 24.108, y: 10.07, z: 0}
   m_LocalScale: {x: 1.33, y: 1.12, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1515295023
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515295020}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34903905, y: -0.035406865}
+  - {x: -0.35795915, y: -0.0470766}
+  - {x: -0.3409106, y: -0.029918978}
+  - {x: -0.2844373, y: -0.16495246}
+  - {x: -0.35630277, y: -0.24757813}
+  - {x: -0.31460497, y: -0.45036507}
+  - {x: 0.0036454739, y: -0.54915553}
+  - {x: 0.15869857, y: -0.5331661}
+  - {x: 0.2556636, y: -0.43027487}
+  - {x: 0.305041, y: -0.32535025}
+  - {x: 0.33897457, y: -0.21830373}
+  - {x: 0.29478863, y: -0.1436736}
+  - {x: 0.3308547, y: -0.09168557}
+  - {x: 0.27766982, y: -0.058162216}
+  - {x: 0.32770973, y: 0.020091875}
+--- !u!1 &1559729571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559729573}
+  - component: {fileID: 1559729572}
+  m_Layer: 0
+  m_Name: GranitaHartaSus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1559729572
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559729571}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.080221, y: -0.04636669}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 40.3186, y: 1.0927334}
+  m_EdgeRadius: 0
+--- !u!4 &1559729573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559729571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3349804, y: 11.86, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 72
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1561564625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561564627}
+  - component: {fileID: 1561564626}
+  m_Layer: 0
+  m_Name: GranitaHartaDreapta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1561564626
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561564625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -2.575533}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 17.077492}
+  m_EdgeRadius: 0
+--- !u!4 &1561564627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561564625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.57, y: 6.1264277, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1572100503
 GameObject:
@@ -12628,6 +14748,8 @@ GameObject:
   - component: {fileID: 1572100504}
   - component: {fileID: 1572100506}
   - component: {fileID: 1572100508}
+  - component: {fileID: 1572100507}
+  - component: {fileID: 1572100509}
   m_Layer: 0
   m_Name: peter
   m_TagString: Player
@@ -12671,7 +14793,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b9be20e723636f34c94e74d7a2752e9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12691,7 +14813,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572100503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.44, y: 3.9482257, z: -5.77}
+  m_LocalPosition: {x: 16.44, y: 3.9482257, z: 0}
   m_LocalScale: {x: 2.33, y: 2.43, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12710,6 +14832,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!50 &1572100507
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572100503}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!95 &1572100508
 Animator:
   serializedVersion: 3
@@ -12729,6 +14872,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1572100509
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572100503}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.060322877, y: 0.021764666}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.26420134, y: 0.38467062}
+  m_EdgeRadius: 0
 --- !u!1 &1659706999
 GameObject:
   m_ObjectHideFlags: 0
@@ -12739,6 +14908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1659707001}
   - component: {fileID: 1659707000}
+  - component: {fileID: 1659707002}
   m_Layer: 0
   m_Name: SnowyTrees3 (15)
   m_TagString: Untagged
@@ -12782,7 +14952,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12802,12 +14972,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659706999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.39, y: 10.1, z: -5}
+  m_LocalPosition: {x: -12.92, y: 10.61, z: 0}
   m_LocalScale: {x: 1.77, y: 1.33, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1659707002
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659706999}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3627686, y: -0.018826822}
+  - {x: -0.3246491, y: -0.0637707}
+  - {x: -0.29821292, y: -0.1223937}
+  - {x: -0.28800806, y: -0.19400388}
+  - {x: -0.33761314, y: -0.20016763}
+  - {x: -0.31965873, y: -0.2452922}
+  - {x: -0.35533047, y: -0.2867756}
+  - {x: -0.318989, y: -0.44755003}
+  - {x: -0.1980674, y: -0.5044349}
+  - {x: -0.029196445, y: -0.5405935}
+  - {x: 0.14752212, y: -0.5489378}
+  - {x: 0.2199087, y: -0.47675398}
+  - {x: 0.28153437, y: -0.40876415}
+  - {x: 0.32016465, y: -0.300667}
+  - {x: 0.31707248, y: -0.23651768}
+  - {x: 0.30965376, y: -0.16484942}
+  - {x: 0.34691766, y: -0.10136124}
 --- !u!1 &1721856880
 GameObject:
   m_ObjectHideFlags: 0
@@ -12818,6 +15021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721856882}
   - component: {fileID: 1721856881}
+  - component: {fileID: 1721856883}
   m_Layer: 0
   m_Name: SnowyTrees3 (60)
   m_TagString: Untagged
@@ -12861,7 +15065,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12881,12 +15085,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721856880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.48, y: 7.59, z: -5}
+  m_LocalPosition: {x: 12.23, y: 3.15, z: 0}
   m_LocalScale: {x: 2.2, y: 1.53, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1721856883
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721856880}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34667146, y: -0.030618241}
+  - {x: -0.36611125, y: -0.021908017}
+  - {x: -0.30557764, y: -0.07924223}
+  - {x: -0.29902026, y: -0.13491063}
+  - {x: -0.29454795, y: -0.18939862}
+  - {x: -0.34050596, y: -0.19589919}
+  - {x: -0.32588658, y: -0.25694025}
+  - {x: -0.35311526, y: -0.2538877}
+  - {x: -0.3381274, y: -0.3834754}
+  - {x: -0.30303913, y: -0.46139276}
+  - {x: -0.023780737, y: -0.5487395}
+  - {x: 0.13890527, y: -0.5407319}
+  - {x: 0.22143711, y: -0.4728811}
+  - {x: 0.2942666, y: -0.38999325}
+  - {x: 0.30532146, y: -0.27664423}
+  - {x: 0.3278494, y: -0.25072658}
+  - {x: 0.32895955, y: -0.1915542}
+  - {x: 0.298305, y: -0.16105641}
+  - {x: 0.33927962, y: -0.12525436}
+  - {x: 0.3314803, y: -0.092314735}
+  - {x: 0.25718907, y: -0.06984854}
+  - {x: 0.31686047, y: 0}
 --- !u!1 &1755578058
 GameObject:
   m_ObjectHideFlags: 0
@@ -12897,6 +15139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1755578060}
   - component: {fileID: 1755578059}
+  - component: {fileID: 1755578061}
   m_Layer: 0
   m_Name: 56531206_362542551022095_5123077432080859136_n (1)
   m_TagString: Untagged
@@ -12940,7 +15183,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: a78d8b87d86335245a715572e9bf2dde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12960,12 +15203,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755578058}
   m_LocalRotation: {x: 0, y: 0.0002617804, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6197414, y: 9.3, z: -2.57}
+  m_LocalPosition: {x: 7.6197414, y: 9.3, z: 0}
   m_LocalScale: {x: 1.75, y: 1.18, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0.03, z: 0}
+--- !u!61 &1755578061
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755578058}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.067822754, y: -0.067958176}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 2.29}
+    newSize: {x: 1.84, y: 2.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6873981, y: 2.1540837}
+  m_EdgeRadius: 0
 --- !u!1 &1816851135
 GameObject:
   m_ObjectHideFlags: 0
@@ -12976,6 +15245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1816851137}
   - component: {fileID: 1816851136}
+  - component: {fileID: 1816851138}
   m_Layer: 0
   m_Name: SnowyTrees3 (5)
   m_TagString: Untagged
@@ -13019,7 +15289,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13039,12 +15309,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816851135}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.98, y: 1.85, z: -5}
+  m_LocalPosition: {x: -12.99, y: 2.02, z: 0}
   m_LocalScale: {x: 1.9, y: 1.64, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1816851138
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816851135}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35852084, y: -0.01917278}
+  - {x: -0.35025045, y: -0.034690414}
+  - {x: -0.30293918, y: -0.10201691}
+  - {x: -0.29135704, y: -0.18479715}
+  - {x: -0.33781153, y: -0.1955638}
+  - {x: -0.34511718, y: -0.24625005}
+  - {x: -0.33926362, y: -0.31317276}
+  - {x: -0.3306113, y: -0.44079942}
+  - {x: -0.23005085, y: -0.4874827}
+  - {x: -0.10803875, y: -0.5352034}
+  - {x: -0.03144415, y: -0.54643524}
+  - {x: 0.16169499, y: -0.52495885}
+  - {x: 0.24002478, y: -0.44941473}
+  - {x: 0.29691297, y: -0.37048495}
+  - {x: 0.32045716, y: -0.28921446}
+  - {x: 0.32540575, y: -0.16705547}
+  - {x: 0.29871038, y: -0.15454991}
+  - {x: 0.35009786, y: -0.10610194}
+  - {x: 0.27137455, y: -0.06952758}
+  - {x: 0.31549305, y: -0.019172926}
 --- !u!1 &1838859315
 GameObject:
   m_ObjectHideFlags: 0
@@ -13102,6 +15408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928473195}
   - component: {fileID: 1928473194}
+  - component: {fileID: 1928473196}
   m_Layer: 0
   m_Name: SnowyTrees3 (18)
   m_TagString: Untagged
@@ -13145,7 +15452,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13165,12 +15472,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928473193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.6, y: 10.29, z: -5}
+  m_LocalPosition: {x: 17.6, y: 10.29, z: 0}
   m_LocalScale: {x: 1.6, y: 1.48, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1928473196
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928473193}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35124063, y: -0.022302447}
+  - {x: -0.34486437, y: -0.04452596}
+  - {x: -0.30472875, y: -0.08905192}
+  - {x: -0.29479146, y: -0.13826409}
+  - {x: -0.29346108, y: -0.19790868}
+  - {x: -0.33604622, y: -0.19929345}
+  - {x: -0.32470107, y: -0.24122806}
+  - {x: -0.34606934, y: -0.2549906}
+  - {x: -0.3236127, y: -0.44260928}
+  - {x: -0.01535058, y: -0.5553201}
+  - {x: 0.15618205, y: -0.54522204}
+  - {x: 0.23201704, y: -0.49129307}
+  - {x: 0.29221058, y: -0.40028483}
+  - {x: 0.31634212, y: -0.26302403}
+  - {x: 0.328027, y: -0.18228905}
+  - {x: 0.30529976, y: -0.16548118}
+  - {x: 0.34002542, y: -0.13491592}
+  - {x: 0.33221126, y: -0.09080397}
+  - {x: 0.27962327, y: -0.08074722}
+  - {x: 0.3086996, y: 0.0142219905}
 --- !u!1 &1935374129
 GameObject:
   m_ObjectHideFlags: 0
@@ -13181,6 +15524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1935374131}
   - component: {fileID: 1935374130}
+  - component: {fileID: 1935374132}
   m_Layer: 0
   m_Name: SnowyTrees3 (31)
   m_TagString: Untagged
@@ -13224,7 +15568,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13244,12 +15588,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935374129}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.03, y: 6.79, z: -5}
+  m_LocalPosition: {x: -13.8, y: 6.87, z: 0}
   m_LocalScale: {x: 1.77, y: 1.33, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1935374132
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935374129}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34899473, y: -0.019166702}
+  - {x: -0.30384067, y: -0.08332783}
+  - {x: -0.29127964, y: -0.13423862}
+  - {x: -0.28699404, y: -0.18560152}
+  - {x: -0.34615147, y: -0.21800959}
+  - {x: -0.3257229, y: -0.2550046}
+  - {x: -0.34690848, y: -0.25847048}
+  - {x: -0.32468626, y: -0.4259902}
+  - {x: -0.30514726, y: -0.46156186}
+  - {x: -0.16716889, y: -0.5084163}
+  - {x: 0.007016242, y: -0.53558993}
+  - {x: 0.14804259, y: -0.5376328}
+  - {x: 0.24139655, y: -0.4617659}
+  - {x: 0.2972533, y: -0.3665709}
+  - {x: 0.32795894, y: -0.2803268}
+  - {x: 0.33267558, y: -0.18550184}
+  - {x: 0.30768177, y: -0.15351719}
+  - {x: 0.3335565, y: -0.13760588}
+  - {x: 0.33422893, y: -0.09037785}
+  - {x: 0.27191845, y: -0.072553106}
+  - {x: 0.31696796, y: 0.0129341185}
 --- !u!1 &1935738846
 GameObject:
   m_ObjectHideFlags: 0
@@ -13260,6 +15641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1935738848}
   - component: {fileID: 1935738847}
+  - component: {fileID: 1935738849}
   m_Layer: 0
   m_Name: SnowyTrees3 (61)
   m_TagString: Untagged
@@ -13303,7 +15685,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13323,12 +15705,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935738846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.75, y: 5.35, z: -5.88}
+  m_LocalPosition: {x: 19.75, y: 5.35, z: 0}
   m_LocalScale: {x: 1.92, y: 1.63, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1935738849
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935738846}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.36104026, y: -0.017639171}
+  - {x: -0.3001879, y: -0.110067464}
+  - {x: -0.29684308, y: -0.20034356}
+  - {x: -0.34872296, y: -0.20569848}
+  - {x: -0.32104555, y: -0.2434751}
+  - {x: -0.3469656, y: -0.25216317}
+  - {x: -0.3590008, y: -0.37189785}
+  - {x: -0.30228597, y: -0.45283204}
+  - {x: -0.013393165, y: -0.5683349}
+  - {x: 0.13849935, y: -0.54099894}
+  - {x: 0.23637317, y: -0.45803425}
+  - {x: 0.31049055, y: -0.34825668}
+  - {x: 0.3310005, y: -0.18559788}
+  - {x: 0.29158098, y: -0.15324843}
+  - {x: 0.3411343, y: -0.11706527}
+  - {x: 0.31874081, y: -0.08365859}
+  - {x: 0.26496652, y: -0.077736154}
+  - {x: 0.32509965, y: 0.02469519}
 --- !u!1 &1954508428
 GameObject:
   m_ObjectHideFlags: 0
@@ -13339,6 +15755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1954508430}
   - component: {fileID: 1954508429}
+  - component: {fileID: 1954508431}
   m_Layer: 0
   m_Name: SnowyTrees3 (28)
   m_TagString: Untagged
@@ -13382,7 +15799,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13402,12 +15819,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954508428}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.17, y: 10.4, z: -5}
+  m_LocalPosition: {x: 2.17, y: 10.4, z: 0}
   m_LocalScale: {x: 2.2, y: 1.53, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1954508431
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954508428}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.385, y: 0}
+  - {x: -0.31245163, y: -0.06467594}
+  - {x: -0.29426163, y: -0.12866063}
+  - {x: -0.2797096, y: -0.20042118}
+  - {x: -0.3360653, y: -0.18947825}
+  - {x: -0.31925446, y: -0.23572086}
+  - {x: -0.34260833, y: -0.26132232}
+  - {x: -0.33323705, y: -0.45671648}
+  - {x: -0.18360372, y: -0.5162245}
+  - {x: -0.034466982, y: -0.5529565}
+  - {x: 0.1448783, y: -0.54161716}
+  - {x: 0.22938393, y: -0.46308428}
+  - {x: 0.29928088, y: -0.38718426}
+  - {x: 0.33438987, y: -0.19146849}
+  - {x: 0.3004127, y: -0.14767677}
+  - {x: 0.34546885, y: -0.101889186}
+  - {x: 0.27326834, y: -0.077770576}
+  - {x: 0.32889518, y: 0.031567864}
 --- !u!1 &1972593573
 GameObject:
   m_ObjectHideFlags: 0
@@ -13418,6 +15869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972593575}
   - component: {fileID: 1972593574}
+  - component: {fileID: 1972593576}
   m_Layer: 0
   m_Name: SnowyTrees3 (44)
   m_TagString: Untagged
@@ -13461,7 +15913,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13481,12 +15933,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972593573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.42, y: 8.53, z: -5}
+  m_LocalPosition: {x: 6.42, y: 8.53, z: 0}
   m_LocalScale: {x: 2.2, y: 1.53, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1972593576
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972593573}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3542835, y: -0.02208348}
+  - {x: -0.29776618, y: -0.0937549}
+  - {x: -0.28793877, y: -0.15758501}
+  - {x: -0.28976744, y: -0.2001139}
+  - {x: -0.3377858, y: -0.18807329}
+  - {x: -0.31890675, y: -0.25395098}
+  - {x: -0.3416601, y: -0.2504492}
+  - {x: -0.33295372, y: -0.37801403}
+  - {x: -0.29344797, y: -0.47554}
+  - {x: -0.16867703, y: -0.5303663}
+  - {x: -0.009422302, y: -0.5463054}
+  - {x: 0.16248053, y: -0.5319218}
+  - {x: 0.24702723, y: -0.4341437}
+  - {x: 0.29935795, y: -0.36126208}
+  - {x: 0.2978973, y: -0.269547}
+  - {x: 0.3203804, y: -0.24842592}
+  - {x: 0.32641086, y: -0.17818438}
+  - {x: 0.2951284, y: -0.15667248}
+  - {x: 0.32760644, y: -0.12272603}
+  - {x: 0.32234323, y: -0.089642264}
+  - {x: 0.25131184, y: -0.07919486}
+  - {x: 0.29234952, y: -0.007686116}
 --- !u!1 &1993403908
 GameObject:
   m_ObjectHideFlags: 0
@@ -13497,6 +15987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993403910}
   - component: {fileID: 1993403909}
+  - component: {fileID: 1993403911}
   m_Layer: 0
   m_Name: SnowyTrees3 (41)
   m_TagString: Untagged
@@ -13540,7 +16031,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13560,12 +16051,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993403908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.89, y: 9.15, z: -5}
+  m_LocalPosition: {x: 3.97, y: 5.2, z: 0}
   m_LocalScale: {x: 1.48, y: 1.43, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1993403911
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993403908}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35700476, y: -0.021072201}
+  - {x: -0.2954016, y: -0.085566595}
+  - {x: -0.2887679, y: -0.13589692}
+  - {x: -0.28781295, y: -0.2010599}
+  - {x: -0.34388545, y: -0.2036725}
+  - {x: -0.3176314, y: -0.25155628}
+  - {x: -0.34538057, y: -0.25760978}
+  - {x: -0.32895964, y: -0.40696752}
+  - {x: -0.2992076, y: -0.4629105}
+  - {x: -0.14222522, y: -0.5241664}
+  - {x: -0.015212717, y: -0.5556797}
+  - {x: 0.13663076, y: -0.5403939}
+  - {x: 0.21676905, y: -0.476415}
+  - {x: 0.26467797, y: -0.41038173}
+  - {x: 0.2983314, y: -0.36549503}
+  - {x: 0.32383898, y: -0.3055359}
+  - {x: 0.33045733, y: -0.18745469}
+  - {x: 0.295549, y: -0.15657932}
+  - {x: 0.34440514, y: -0.1189522}
+  - {x: 0.33349717, y: -0.09351143}
+  - {x: 0.26621512, y: -0.085670635}
+  - {x: 0.31459057, y: 0.00840834}
 --- !u!1 &2008761709
 GameObject:
   m_ObjectHideFlags: 0
@@ -13576,6 +16105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2008761711}
   - component: {fileID: 2008761710}
+  - component: {fileID: 2008761712}
   m_Layer: 0
   m_Name: SnowyTrees3 (42)
   m_TagString: Untagged
@@ -13619,7 +16149,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13639,12 +16169,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008761709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.27, y: 10.52, z: -5}
+  m_LocalPosition: {x: 5.27, y: 10.52, z: 0}
   m_LocalScale: {x: 1.56, y: 1.32, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &2008761712
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008761709}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.35099894, y: -0.029467091}
+  - {x: -0.3108321, y: -0.08533218}
+  - {x: -0.29856792, y: -0.12941721}
+  - {x: -0.29081506, y: -0.20063502}
+  - {x: -0.3393696, y: -0.19386248}
+  - {x: -0.3218556, y: -0.25283566}
+  - {x: -0.35522413, y: -0.25460792}
+  - {x: -0.34471416, y: -0.37003574}
+  - {x: -0.31286418, y: -0.4536058}
+  - {x: -0.17601803, y: -0.5199143}
+  - {x: -0.03484396, y: -0.55138993}
+  - {x: 0.13857745, y: -0.5389806}
+  - {x: 0.20890482, y: -0.47235706}
+  - {x: 0.25677866, y: -0.45108724}
+  - {x: 0.30553648, y: -0.3881765}
+  - {x: 0.3128275, y: -0.2652544}
+  - {x: 0.33080822, y: -0.19083746}
+  - {x: 0.29760295, y: -0.14980128}
+  - {x: 0.331676, y: -0.13466893}
+  - {x: 0.3338395, y: -0.09254542}
+  - {x: 0.2640107, y: -0.08699316}
+  - {x: 0.30793107, y: 0.0026789578}
 --- !u!1 &2011112405
 GameObject:
   m_ObjectHideFlags: 0
@@ -13655,6 +16223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2011112407}
   - component: {fileID: 2011112406}
+  - component: {fileID: 2011112408}
   m_Layer: 0
   m_Name: SnowyTrees3 (34)
   m_TagString: Untagged
@@ -13698,7 +16267,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13718,12 +16287,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011112405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.72, y: 8.14, z: -5}
+  m_LocalPosition: {x: 14.72, y: 8.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &2011112408
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011112405}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.385, y: 0}
+  - {x: -0.3046379, y: -0.08026123}
+  - {x: -0.29334927, y: -0.13495827}
+  - {x: -0.29774475, y: -0.1937952}
+  - {x: -0.34131336, y: -0.2022829}
+  - {x: -0.32182312, y: -0.233881}
+  - {x: -0.3466835, y: -0.26212597}
+  - {x: -0.32546997, y: -0.43738747}
+  - {x: -0.16343975, y: -0.5202751}
+  - {x: -0.020324707, y: -0.55783415}
+  - {x: 0.15424347, y: -0.5370531}
+  - {x: 0.23661327, y: -0.47858715}
+  - {x: 0.28504753, y: -0.42050934}
+  - {x: 0.31912136, y: -0.33609486}
+  - {x: 0.3274784, y: -0.22495556}
+  - {x: 0.32671547, y: -0.17321682}
+  - {x: 0.29680634, y: -0.1537075}
+  - {x: 0.33438778, y: -0.12094021}
+  - {x: 0.32798576, y: -0.08627224}
+  - {x: 0.26306343, y: -0.080472946}
+  - {x: 0.33060074, y: 0.022399902}
 --- !u!1 &2048026388
 GameObject:
   m_ObjectHideFlags: 0
@@ -13734,6 +16340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048026390}
   - component: {fileID: 2048026389}
+  - component: {fileID: 2048026391}
   m_Layer: 0
   m_Name: SnowyTrees3 (52)
   m_TagString: Untagged
@@ -13777,7 +16384,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13797,12 +16404,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048026388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.55, y: -2.64, z: -5}
+  m_LocalPosition: {x: -1.62, y: -3.65, z: 0}
   m_LocalScale: {x: 2.1, y: 1.66, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &2048026391
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048026388}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.3523071, y: -0.018799162}
+  - {x: -0.33317038, y: -0.050626606}
+  - {x: -0.29382336, y: -0.11556824}
+  - {x: -0.28326267, y: -0.20565973}
+  - {x: -0.33498418, y: -0.19849181}
+  - {x: -0.32257652, y: -0.25131905}
+  - {x: -0.34869406, y: -0.2527912}
+  - {x: -0.3294818, y: -0.455125}
+  - {x: -0.040591616, y: -0.55530447}
+  - {x: 0.14797176, y: -0.54641604}
+  - {x: 0.21351463, y: -0.47984412}
+  - {x: 0.27684546, y: -0.40197605}
+  - {x: 0.31171998, y: -0.33940494}
+  - {x: 0.32761025, y: -0.18026915}
+  - {x: 0.30113068, y: -0.15600532}
+  - {x: 0.3396147, y: -0.12027887}
+  - {x: 0.32885864, y: -0.08435652}
+  - {x: 0.26281726, y: -0.07413367}
+  - {x: 0.31480548, y: -0.0023999847}
 --- !u!1 &2124379697
 GameObject:
   m_ObjectHideFlags: 0
@@ -13813,6 +16455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2124379699}
   - component: {fileID: 2124379698}
+  - component: {fileID: 2124379700}
   m_Layer: 0
   m_Name: SnowyTrees3 (43)
   m_TagString: Untagged
@@ -13856,7 +16499,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13876,12 +16519,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124379697}
   m_LocalRotation: {x: 0, y: -0.00043630067, z: 0, w: 0.99999994}
-  m_LocalPosition: {x: 9.46, y: 9.04, z: -5}
+  m_LocalPosition: {x: 9.73, y: 9.04, z: 0}
   m_LocalScale: {x: 1.75, y: 1.51, z: 1.0000006}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: -0.05, z: 0}
+--- !u!68 &2124379700
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124379697}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.36239827, y: -0.018233495}
+  - {x: -0.3032743, y: -0.07663373}
+  - {x: -0.2909414, y: -0.13320051}
+  - {x: -0.28285095, y: -0.1990072}
+  - {x: -0.33711445, y: -0.19928004}
+  - {x: -0.32467037, y: -0.24181834}
+  - {x: -0.34630787, y: -0.29561505}
+  - {x: -0.34794056, y: -0.39280266}
+  - {x: -0.305501, y: -0.44529453}
+  - {x: -0.15203686, y: -0.5269095}
+  - {x: -0.00964027, y: -0.5424392}
+  - {x: 0.13890561, y: -0.53077406}
+  - {x: 0.21231507, y: -0.48247457}
+  - {x: 0.28652832, y: -0.43145677}
+  - {x: 0.32280442, y: -0.349749}
+  - {x: 0.31364152, y: -0.25316644}
+  - {x: 0.34215966, y: -0.19486977}
+  - {x: 0.3163396, y: -0.1558967}
+  - {x: 0.34002995, y: -0.11788804}
+  - {x: 0.32429162, y: -0.080363795}
+  - {x: 0.2683682, y: -0.06479111}
+  - {x: 0.321072, y: 0.022791553}
 --- !u!1 &2133216901
 GameObject:
   m_ObjectHideFlags: 0
@@ -13892,6 +16573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133216903}
   - component: {fileID: 2133216902}
+  - component: {fileID: 2133216904}
   m_Layer: 0
   m_Name: SnowyTrees3 (37)
   m_TagString: Untagged
@@ -13935,7 +16617,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13955,12 +16637,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133216901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.33, y: -0.78, z: -5}
+  m_LocalPosition: {x: 9.95, y: -3.21, z: 0}
   m_LocalScale: {x: 1.9, y: 1.64, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &2133216904
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133216901}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.36068517, y: -0.01516822}
+  - {x: -0.29825965, y: -0.10211846}
+  - {x: -0.2875549, y: -0.18432373}
+  - {x: -0.3383185, y: -0.19239755}
+  - {x: -0.330147, y: -0.23210892}
+  - {x: -0.35253876, y: -0.25765622}
+  - {x: -0.3514325, y: -0.34876975}
+  - {x: -0.3244686, y: -0.44746995}
+  - {x: -0.016931234, y: -0.54643536}
+  - {x: 0.15251261, y: -0.5536062}
+  - {x: 0.24269657, y: -0.45934424}
+  - {x: 0.29958627, y: -0.36939907}
+  - {x: 0.33444104, y: -0.18793273}
+  - {x: 0.2900199, y: -0.16202752}
+  - {x: 0.33988702, y: -0.09648916}
+  - {x: 0.2703958, y: -0.07212249}
+  - {x: 0.31400982, y: 0.029183453}
 --- !u!1 &2136959379
 GameObject:
   m_ObjectHideFlags: 0
@@ -13971,6 +16686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2136959381}
   - component: {fileID: 2136959380}
+  - component: {fileID: 2136959382}
   m_Layer: 0
   m_Name: SnowyTrees3 (22)
   m_TagString: Untagged
@@ -14014,7 +16730,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29ca5e919a7327a45b3e64071981e897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14034,9 +16750,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136959379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.19, y: 7.84, z: -4.46}
+  m_LocalPosition: {x: -6.72, y: 1.97, z: 0}
   m_LocalScale: {x: 2.03, y: 1.46, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &2136959382
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136959379}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.34767228, y: -0.024220305}
+  - {x: -0.301615, y: -0.08136458}
+  - {x: -0.29057822, y: -0.14122732}
+  - {x: -0.2883648, y: -0.19661635}
+  - {x: -0.33188993, y: -0.19709393}
+  - {x: -0.3208158, y: -0.23234771}
+  - {x: -0.35366094, y: -0.25330502}
+  - {x: -0.3410546, y: -0.3738542}
+  - {x: -0.31508997, y: -0.46350807}
+  - {x: -0.1618552, y: -0.5149275}
+  - {x: -0.05248121, y: -0.5373707}
+  - {x: 0.021477403, y: -0.5409104}
+  - {x: 0.14836259, y: -0.53886694}
+  - {x: 0.2366087, y: -0.45531014}
+  - {x: 0.2886509, y: -0.4010953}
+  - {x: 0.3156751, y: -0.33695343}
+  - {x: 0.33161604, y: -0.23356625}
+  - {x: 0.32797515, y: -0.18828648}
+  - {x: 0.30732742, y: -0.15811503}
+  - {x: 0.33083478, y: -0.08789603}
+  - {x: 0.27232873, y: -0.07184727}
+  - {x: 0.32029903, y: 0.020760214}
