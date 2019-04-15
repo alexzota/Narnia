@@ -1,17 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narnia", "Narnia.csproj", "{B5D14C01-F7C7-B230-EF3E-14D16715C421}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narnia", "Narnia.csproj", "{B5D14C01-F7C7-B230-EF3E-14D16715C421}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narnia", "Narnia.csproj", "{B5D14C01-F7C7-B230-EF3E-14D16715C421}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narnia.Editor", "Narnia.Editor.csproj", "{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narnia.Editor", "Narnia.Editor.csproj", "{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narnia.Editor", "Narnia.Editor.csproj", "{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}"
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B0C4D8D4-3BCE-F2CC-71DD-0837CD1E1F18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,30 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5D14C01-F7C7-B230-EF3E-14D16715C421}.Release|Any CPU.Build.0 = Release|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{012DE0F0-6DB4-C095-AFD9-36AC3960FC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C4D8D4-3BCE-F2CC-71DD-0837CD1E1F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C4D8D4-3BCE-F2CC-71DD-0837CD1E1F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C4D8D4-3BCE-F2CC-71DD-0837CD1E1F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C4D8D4-3BCE-F2CC-71DD-0837CD1E1F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
