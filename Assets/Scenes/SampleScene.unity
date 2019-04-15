@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44856596, g: 0.49482936, b: 0.5553282, a: 1}
+  m_IndirectSpecularColor: {r: 0.4485662, g: 0.49482942, b: 0.5553285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7820,13 +7820,10 @@ EdgeCollider2D:
   - {x: -0.3026963, y: 0.018902794}
   - {x: -0.29559633, y: -0.020559974}
   - {x: -0.34911436, y: -0.021472875}
-  - {x: -0.31558394, y: -0.08161241}
-  - {x: -0.2966385, y: -0.119449094}
-  - {x: -0.2775561, y: -0.19636638}
-  - {x: -0.3372917, y: -0.20397781}
-  - {x: -0.3348789, y: -0.24933954}
+  - {x: -0.34729177, y: -0.24614127}
   - {x: -0.34658268, y: -0.27697468}
   - {x: -0.31811666, y: -0.44330376}
+  - {x: -0.24921432, y: -0.47764087}
   - {x: -0.17872798, y: -0.51458263}
   - {x: -0.018990412, y: -0.5508865}
   - {x: 0.14012548, y: -0.5358475}
@@ -10376,7 +10373,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921989048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.93, y: 5.25, z: 0}
+  m_LocalPosition: {x: 18.055, y: 5.25, z: 0}
   m_LocalScale: {x: 1.9, y: 1.64, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
