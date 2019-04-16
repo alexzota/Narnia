@@ -1,9 +1,10 @@
-CONTRIBUTORI :  Cojocaru Miruna
+#CONTRIBUTORS
+Cojocaru Miruna
 
-                Severin Dragos
+Severin Dragos
                 
-                Meianu Raluca
+Meianu Raluca
                 
-                Lupu Teodor
+Lupu Teodor
                 
-                Zota Andrei
+Zota Andrei
