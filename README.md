@@ -1,11 +1,11 @@
 # CONTRIBUTORS
 
 Cojocaru Miruna-Andreea
-
-Severin Dragos
                 
 Meianu Raluca-GUCCI
                 
 Lupu Teodor
+
+Severin Dragos
                 
 Zota Andrei-Alexandru
