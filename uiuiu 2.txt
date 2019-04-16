@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-alabalaportocala
-=======
-banana
->>>>>>> miru
