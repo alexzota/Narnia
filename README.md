@@ -4,7 +4,7 @@ Cojocaru Miruna-Andreea
 
 Severin Dragos
                 
-Meianu Raluca
+Meianu Raluca-GUCCI
                 
 Lupu Teodor
                 
