@@ -6,9 +6,17 @@ using UnityEngine;
 public class PlayerController : Character
 {
     // Update is called once per frame
+    [SerializeField]
+    private Stat health;
+    private float startingHealth = 100F;
+    [SerializeField]
+    private Stat hunger;
+    private float startingHunger = 100F;
 
     protected override void Start()
     {
+        health.Initialize(startingHealth, startingHealth);
+        hunger.Initialize(startingHunger, startingHunger);
         base.Start();
     }
 

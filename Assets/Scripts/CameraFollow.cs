@@ -6,9 +6,7 @@ using UnityEngine.Tilemaps;
 public class CameraFollow : MonoBehaviour
 {
     private Transform target;
-
     private float xMin, xMax, yMin, yMax;
-        
     [SerializeField]
     private Tilemap tilemap;
     // Start is called before the first frame update
