@@ -1,4 +1,4 @@
-#CONTRIBUTORS
+# CONTRIBUTORS
 
 Cojocaru Miruna-Andreea
 
