@@ -1,6 +1,6 @@
 # CONTRIBUTORS
 
-Cojocaru Miruna-Andreea
+Cojocaru Andreea-Miruna
           
 Lupu Teodor         
           
