@@ -28,6 +28,16 @@ public class Stat : MonoBehaviour
         }
     }
 
+    public bool IsFull()
+    {
+        return currentValue == maxValue;
+    }
+
+    public bool IsEmpty()
+    {
+        return currentValue == 0;
+    }
+
     public void Decrease(float value)
     {
         currentValue -= value;

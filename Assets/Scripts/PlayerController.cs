@@ -8,22 +8,63 @@ public class PlayerController : Character
     // Update is called once per frame
     [SerializeField]
     private Stat health;
-    private float startingHealth = 100F;
+    private float startingHealth = 50F;
+    private float maxHealth = 100F;
     [SerializeField]
     private Stat hunger;
-    private float startingHunger = 100F;
+    private float startingHunger = 70F;
+    private float maxHunger = 100F;
+    private bool hasSword = false;
+
 
     protected override void Start()
     {
-        health.Initialize(startingHealth, startingHealth);
-        hunger.Initialize(startingHunger, startingHunger);
+        health.Initialize(startingHealth, maxHealth);
+        hunger.Initialize(startingHunger, maxHunger);
         base.Start();
+        InvokeRepeating("Starve", 0, 3F);
     }
 
     protected override void Update()
     {
         GetInput();
         base.Update();
+    }
+
+    public bool GetHasSword()
+    {
+        return hasSword;
+    }
+    public void SetHasSword(bool x)
+    {
+        hasSword = x;
+    }
+
+
+    public bool IsAtMaxHealth()
+    {
+        return health.IsFull();
+    }
+
+    public void AddHealth(float healthAmount)
+    {
+        health.Increase(healthAmount);
+    }
+
+    public bool IsAtMaxHunger()
+    {
+        return hunger.IsFull();
+    }
+
+    public void AddHunger(float foodAmount)
+    {
+        hunger.Increase(foodAmount);
+    }
+
+    private void Starve() {
+        hunger.Decrease(1);
+        if (hunger.IsEmpty())
+            health.Decrease(5);
     }
 
     private void GetInput()
