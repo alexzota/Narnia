@@ -20,6 +20,11 @@ public abstract class Character : MonoBehaviour
         Move();
     }
 
+    public void SetSpeed(float value)
+    {
+        speed = value;
+    }
+
     public void Move()
     {
         transform.Translate(direction.normalized * speed * Time.deltaTime);

@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class PlayerController : Character
 {
-    // Update is called once per frame
     [SerializeField]
     private Stat health;
     private float startingHealth = 50F;
@@ -15,7 +14,18 @@ public class PlayerController : Character
     private float startingHunger = 70F;
     private float maxHunger = 100F;
     private bool hasSword = false;
+    private static PlayerController instance;
 
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            instance = this;
+        }
+        else
+            Destroy(gameObject);
+    }
 
     protected override void Start()
     {
@@ -29,6 +39,11 @@ public class PlayerController : Character
     {
         GetInput();
         base.Update();
+    }
+
+    public static PlayerController GetInstance()
+    {
+        return instance;
     }
 
     public bool GetHasSword()

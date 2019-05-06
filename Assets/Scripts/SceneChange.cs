@@ -14,6 +14,10 @@ public class SceneChange : MonoBehaviour
                 case "Tutorial":
                     {
                         SceneManager.LoadScene("EscapeRoom1", LoadSceneMode.Single);
+                        PlayerController player = PlayerController.GetInstance();
+                        player.gameObject.transform.localScale = new Vector3(25F, 35F, 1F);
+                        player.SetSpeed(20);
+                        player.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 4;
                         break;
                     }
                 case "EscapeRoom1":
