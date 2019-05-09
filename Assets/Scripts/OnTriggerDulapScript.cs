@@ -6,32 +6,36 @@ public class OnTriggerDulapScript : MonoBehaviour
 {
     public GameObject text;
     private Animator animator;
+    private bool near;
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         text.SetActive(false);
+        near = false;
     }
 
     // Update is called once per frame
-    void OnTriggerStay2D(Collider2D other)
+    void OnTriggerStay2D()
     {
-        if (other.tag == "Player")
-        {
-            text.SetActive(true);
-            if (text.activeInHierarchy == true && Input.GetButtonDown("E"))
-            {
-                animator = other.GetComponent<Animator>();
-                animator.SetFloat("open", 1 );
-            }
-        }
+        near = true;
     }
 
     void Update()
     {
-        
+        if (near == true)
+        {
+                text.SetActive(true);
+                if (text.activeInHierarchy == true && Input.GetButtonDown("Use"))
+                {
+                    if (animator.GetBool("apasat")) animator.SetBool("apasat", false);
+                    else animator.SetBool("apasat", true);
+                }
+        }
     }
     private void OnTriggerExit2D()
     {
         text.SetActive(false);
+        animator.SetBool("apasat", false);
     }
 }
