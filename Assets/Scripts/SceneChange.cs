@@ -17,7 +17,7 @@ public class SceneChange : MonoBehaviour
                         PlayerController player = PlayerController.GetInstance();
                         player.gameObject.transform.localScale = new Vector3(25F, 35F, 1F);
                         player.gameObject.transform.localPosition = new Vector3(-57F,-24F,1F);
-                        player.SetSpeed(20);
+                        player.SetSpeed(30);
                         player.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 4;
                         break;
                     }

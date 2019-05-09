@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44856596, g: 0.49482936, b: 0.5553282, a: 1}
+  m_IndirectSpecularColor: {r: 0.44856644, g: 0.49482983, b: 0.5553285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 73743208}
   - component: {fileID: 73743210}
   m_Layer: 0
-  m_Name: 56531206_362542551022095_5123077432080859136_n (2)
+  m_Name: StancaMare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8596,7 +8596,7 @@ GameObject:
   - component: {fileID: 123979256}
   - component: {fileID: 123979255}
   m_Layer: 0
-  m_Name: 59828685_318599485476026_603606487507402752_n
+  m_Name: Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8826,7 +8826,7 @@ GameObject:
   - component: {fileID: 133388148}
   - component: {fileID: 133388150}
   m_Layer: 0
-  m_Name: 56252713_2372668112944581_6191349065473589248_n
+  m_Name: Felinar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11118,7 +11118,7 @@ GameObject:
   - component: {fileID: 609302396}
   - component: {fileID: 609302398}
   m_Layer: 0
-  m_Name: 56531206_362542551022095_5123077432080859136_n
+  m_Name: StancaMare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18577,7 +18577,7 @@ GameObject:
   - component: {fileID: 1755578059}
   - component: {fileID: 1755578061}
   m_Layer: 0
-  m_Name: 56531206_362542551022095_5123077432080859136_n (1)
+  m_Name: StancaMare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20680,6 +20680,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: peter
       objectReference: {fileID: 0}
+    - target: {fileID: 4507425787410815553, guid: 13101836d7a12184f9c40e0e20d07f7c,
+        type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 878647716}
+    - target: {fileID: 4507425787410815553, guid: 13101836d7a12184f9c40e0e20d07f7c,
+        type: 3}
+      propertyPath: hunger
+      value: 
+      objectReference: {fileID: 697648248}
+    - target: {fileID: 4507425787410815555, guid: 13101836d7a12184f9c40e0e20d07f7c,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4507425787410815554, guid: 13101836d7a12184f9c40e0e20d07f7c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20745,20 +20760,5 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4507425787410815555, guid: 13101836d7a12184f9c40e0e20d07f7c,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507425787410815553, guid: 13101836d7a12184f9c40e0e20d07f7c,
-        type: 3}
-      propertyPath: health
-      value: 
-      objectReference: {fileID: 878647716}
-    - target: {fileID: 4507425787410815553, guid: 13101836d7a12184f9c40e0e20d07f7c,
-        type: 3}
-      propertyPath: hunger
-      value: 
-      objectReference: {fileID: 697648248}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13101836d7a12184f9c40e0e20d07f7c, type: 3}
