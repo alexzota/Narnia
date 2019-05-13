@@ -50,6 +50,7 @@ public class PlayerController : Character
     {
         return hasSword;
     }
+
     public void SetHasSword(bool x)
     {
         hasSword = x;

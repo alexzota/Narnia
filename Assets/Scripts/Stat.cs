@@ -21,7 +21,6 @@ public class Stat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(lerpSpeed + " ");
         if (currentFill != content.fillAmount)
         {
             content.fillAmount = Mathf.Lerp(content.fillAmount, currentFill, Time.deltaTime * lerpSpeed);

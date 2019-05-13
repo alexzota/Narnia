@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Saver : MonoBehaviour
+public class Portrait : MonoBehaviour
 {
     private void Awake()
     {
