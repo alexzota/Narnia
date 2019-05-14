@@ -70,8 +70,10 @@
     <Compile Include="Assets\Scripts\OnTriggerDisplayETeapa.cs" />
     <Compile Include="Assets\Scripts\OnTriggerDulapScript.cs" />
     <Compile Include="Assets\Scripts\OnTriggerPernaScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Portrait.cs" />
+    <Compile Include="Assets\Scripts\Saving\SaveData.cs" />
+    <Compile Include="Assets\Scripts\Saving\SaveManager.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
     <Compile Include="Assets\Scripts\Stat.cs" />
     <Compile Include="Assets\Scripts\SwordPickUp.cs" />

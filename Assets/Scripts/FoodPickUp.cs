@@ -28,7 +28,7 @@ public class FoodPickUp : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            PlayerController player = other.gameObject.GetComponent<PlayerController>();
+            Player player = other.gameObject.GetComponent<Player>();
             if (!player.IsAtMaxHunger())
             {
                 player.AddHunger(foodAmount);

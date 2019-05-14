@@ -23,7 +23,7 @@ public class HealthPickUp : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            PlayerController player = other.gameObject.GetComponent<PlayerController>();
+            Player player = other.gameObject.GetComponent<Player>();
             if (!player.IsAtMaxHealth())
             {
                 player.AddHealth(healthAmount);
