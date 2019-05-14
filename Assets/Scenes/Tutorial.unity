@@ -12516,9 +12516,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d19bf90957ad2864699a39f21407bcbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   health: {fileID: 878647716}
   hunger: {fileID: 697648248}
+  speed: 5
 --- !u!212 &730026562
 SpriteRenderer:
   m_ObjectHideFlags: 0
