@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 284332985}
   - component: {fileID: 284332984}
   - component: {fileID: 284332983}
+  - component: {fileID: 284332986}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -479,8 +480,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 43.80461
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -510,6 +511,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &284332986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284332982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b06388454683d4242b0e958195de4b0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &293060363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1759,7 +1772,7 @@ GameObject:
   - component: {fileID: 1145078891}
   m_Layer: 0
   m_Name: placa_corecta (7)
-  m_TagString: Untagged
+  m_TagString: Limit up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2253,7 +2266,7 @@ GameObject:
   - component: {fileID: 1846800497}
   m_Layer: 0
   m_Name: placa2
-  m_TagString: Untagged
+  m_TagString: Limit down
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2297,7 +2310,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 11b3a1a1041bbe544a4e96f8b2bd38da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.6, y: 0.45}
@@ -2314,7 +2327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846800496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.4, y: -37.9, z: 0}
+  m_LocalPosition: {x: -26.47, y: -37.9, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
