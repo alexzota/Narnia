@@ -25,6 +25,7 @@ public class SceneChange : MonoBehaviour
         }
     }
 
+
     public static void LoadScene(string scene)
     {
         Player player = Player.GetInstance();
@@ -37,6 +38,14 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
         player.CurrentLevel = scene;
     }
+    public static void LoadSceneFirstScreen(string scene)
+    {
+
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+        Player player = Player.GetInstance();
+        player.CurrentLevel = "Tutorial";
+        UpdateTutorial(); 
+    }
 
     private static void UpdateTutorial()
     {
@@ -45,6 +54,7 @@ public class SceneChange : MonoBehaviour
         player.gameObject.transform.localPosition = new Vector3(7F, 3F, 0F);
         player.SetSpeed(5);
         player.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 2;
+
     }
     private static void UpdateTutorial(float x, float y, float z)
     {
@@ -79,17 +89,17 @@ public class SceneChange : MonoBehaviour
     private static void UpdateEscapeRoom2()
     {
         Player player = Player.GetInstance();
-        player.gameObject.transform.localScale = new Vector3(25F, 35F, 1F);
-        player.gameObject.transform.localPosition = new Vector3(-57F, -24F, 1F);
-        player.SetSpeed(30);
+        player.gameObject.transform.localScale = new Vector3(45F, 55F, 1F);
+        player.gameObject.transform.localPosition = new Vector3(-48F, -34F, 1F);
+        player.SetSpeed(50);
         player.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 7;
     }
     private static void UpdateEscapeRoom2(float x, float y, float z)
     {
         Player player = Player.GetInstance();
-        player.gameObject.transform.localScale = new Vector3(25F, 35F, 1F);
+        player.gameObject.transform.localScale = new Vector3(-48F, -34F, 1F);
         player.gameObject.transform.localPosition = new Vector3(x, y, z);
-        player.SetSpeed(30);
+        player.SetSpeed(50);
         player.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 7;
     }
 }

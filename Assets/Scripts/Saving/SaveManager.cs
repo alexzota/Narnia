@@ -14,22 +14,16 @@ public class SaveManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Save();
-        }
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            Load();
-        }
+
     }
 
-    public void Save()
+    public void Save(string path)
     {
+        Player player = Player.GetInstance();
         try
         {
             BinaryFormatter bf = new BinaryFormatter();
-            FileStream fs = File.Open(Application.persistentDataPath + "/" + "test.dat", FileMode.Create);
+            FileStream fs = File.Open(path, FileMode.Create);
             SaveData data = new SaveData();
             SavePlayer(data);
             switch (data.MyPlayerData.MyLevel)
@@ -61,12 +55,12 @@ public class SaveManager : MonoBehaviour
         Debug.Log(GameObject.Find("Pillow shading").transform.position.x);
     }
 
-    public void Load()
+    public  void Load(string path)
     {
         try
         {
             BinaryFormatter bf = new BinaryFormatter();
-            FileStream fs = File.Open(Application.persistentDataPath + "/" + "test.dat", FileMode.Open);
+            FileStream fs = File.Open(path, FileMode.Open);
             SaveData data = (SaveData)bf.Deserialize(fs);
             LoadPlayer(data);
             SceneChange.LoadScene(data.MyPlayerData.MyLevel);

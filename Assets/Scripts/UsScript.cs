@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UsScript : MonoBehaviour
 {
     public GameObject text;
-    public GameObject ticket;
+    public Canvas ticket;
+    public Canvas demoover;
+
     private bool ticketVisible;
     private bool near;
     // Start is called before the first frame update
@@ -29,14 +32,16 @@ public class UsScript : MonoBehaviour
             text.SetActive(true);
             if (text.activeInHierarchy == true && Input.GetButtonDown("Use") && ticketVisible == false)
             {
-                ticket.GetComponent<SpriteRenderer>().sortingOrder = 10;
+                ticket.sortingOrder = 7;
                 gameObject.GetComponent<SpriteRenderer>().sortingOrder = 2;
                 ticketVisible = true;
             }
             else if (text.activeInHierarchy == true && Input.GetButtonDown("Use") && ticketVisible == true)
             {
-                ticket.GetComponent<SpriteRenderer>().sortingOrder = -1;
-                ticketVisible = false;
+                InputField stringul = ticket.GetComponentInChildren<InputField>();
+               if (stringul.text == "1825") {
+                    demoover.sortingOrder = 11;
+                }
             }
         }
     }
@@ -44,7 +49,7 @@ public class UsScript : MonoBehaviour
     private void OnTriggerExit2D()
     {
         near = false;
-        ticket.GetComponent<SpriteRenderer>().sortingOrder = -1;
+        ticket.sortingOrder = -1;
         ticketVisible = false;
         text.SetActive(false);
     }

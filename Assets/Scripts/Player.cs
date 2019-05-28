@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Class <c>Player</c> provides basic control for the player character
@@ -52,8 +53,9 @@ public class Player : Character
     protected override void Start()
     {
         base.Start();
-        CurrentLevel = "Tutorial";
+        //CurrentLevel = "Tutorial";
         InvokeRepeating("Starve", 0, 3F);
+        CurrentLevel = "Tutorial";
     }
 
     /// <summary>
@@ -66,6 +68,10 @@ public class Player : Character
         posX = this.transform.position.x;
         posY = this.transform.position.y;
         posZ = this.transform.position.z;
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("title", LoadSceneMode.Single);
+        }
     }
 
     /// <summary>

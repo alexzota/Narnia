@@ -13,7 +13,6 @@ public class DoNotDestroyOnLoad : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             instance = this;
         }
-        else
-            Destroy(gameObject);
+        else Destroy(gameObject);
     }
 }
