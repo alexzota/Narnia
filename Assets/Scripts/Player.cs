@@ -5,10 +5,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Class <c>Player</c> provides basic control for the player character
+/// Class <c>Player</c> provides basic control for the player character.
 /// </summary>
 public class Player : Character
 {
+    /// <summary>
+    /// The dialog line reached by the player
+    /// </summary>
+    public int DialogueLine { get; set; }
     /// <summary>
     /// Indicates whether the sword has been picked up or not
     /// </summary>
@@ -53,9 +57,6 @@ public class Player : Character
     protected override void Start()
     {
         base.Start();
-        //CurrentLevel = "Tutorial";
-        InvokeRepeating("Starve", 0, 3F);
-        CurrentLevel = "Tutorial";
     }
 
     /// <summary>
@@ -68,10 +69,6 @@ public class Player : Character
         posX = this.transform.position.x;
         posY = this.transform.position.y;
         posZ = this.transform.position.z;
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("title", LoadSceneMode.Single);
-        }
     }
 
     /// <summary>
@@ -83,13 +80,23 @@ public class Player : Character
         return instance;
     }
 
+    public void StartStarving()
+    {
+        InvokeRepeating("Starve", 0, 3F);
+    }
+
+    public void StopStarving()
+    {
+        CancelInvoke();
+    }
+
     /// <summary>
     /// Gradually decreases the player's hunger.
     /// </summary>
     private void Starve() {
-        hunger.Decrease(5);
+        hunger.Decrease(4);
         if (hunger.IsEmpty())
-            health.Decrease(5);
+            health.Decrease(3);
     }
 
     /// <summary>
@@ -97,22 +104,25 @@ public class Player : Character
     /// </summary>
     private void GetInput()
     {
-        direction = Vector2.zero;
-        if (Input.GetKey(KeyCode.W))
+        if (DialogueLine >= 10)
         {
-            direction += Vector2.up;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            direction += Vector2.left;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            direction += Vector2.down;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            direction += Vector2.right;
+            direction = Vector2.zero;
+            if (Input.GetKey(KeyCode.W))
+            {
+                direction += Vector2.up;
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                direction += Vector2.left;
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                direction += Vector2.down;
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                direction += Vector2.right;
+            }
         }
     }
 }

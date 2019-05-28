@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Class <c>Character</c> defines an in-game character
+/// Class <c>Character</c> defines an in-game character.
 /// </summary>
 public abstract class Character : MonoBehaviour
 {
@@ -15,7 +15,7 @@ public abstract class Character : MonoBehaviour
     /// <summary>
     /// The character's starting health value
     /// </summary>
-    protected float startingHealth = 50F;
+    protected float startingHealth = 60F;
     /// <summary>
     /// The character's maximum health value
     /// </summary>
@@ -28,7 +28,7 @@ public abstract class Character : MonoBehaviour
     /// <summary>
     /// The character's starting hunger value
     /// </summary>
-    protected float startingHunger = 70F;
+    protected float startingHunger = 80F;
     /// <summary>
     /// The character's maximum hunger value
     /// </summary>
@@ -43,7 +43,7 @@ public abstract class Character : MonoBehaviour
     /// </summary>
     protected Vector2 direction;
     /// <summary>
-    /// The character's animator object
+    /// The character's Unity animator object
     /// </summary>
     protected Animator animator;
 
@@ -120,6 +120,16 @@ public abstract class Character : MonoBehaviour
     public float GetHunger()
     {
         return hunger.GetCurrentValue();
+    }
+
+    public float GetStartingHunger()
+    {
+        return startingHunger;
+    }
+
+    public float GetStartingHealth()
+    {
+        return startingHealth;
     }
 
     /// <summary>

@@ -21,10 +21,10 @@ EditorBuildSettings:
     path: Assets/Scenes/EscapeRoom2.unity
     guid: 1d8a9b83f0f24c44e8be909647523448
   - enabled: 1
-    path: Assets/Scenes/title.unity
+    path: Assets/Scenes/menu.unity
     guid: c483baafdbd3bc64785377b77e2295ec
   - enabled: 1
-    path: Assets/Scenes/title2.unity
+    path: Assets/Scenes/save.unity
     guid: c4efb01e9bf44db438d6481865252ae9
   - enabled: 1
     path: Assets/Scenes/load.unity

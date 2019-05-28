@@ -30,17 +30,13 @@ public class DialogueManager : MonoBehaviour
     /// </summary>
     [TextArea(3, 11)]
     public string[] sentences;
-    /// <summary>
-    /// An index to keep count of the current sentence displayed on screen.
-    /// </summary>
-    public int currentLine;
 
     /// <summary>
     /// Start is called before the first frame update.
     /// </summary>
     void Start()
     {
-        dialogueBoxAslan.SetActive(false);
+        dialogueBoxAslan.SetActive(true);
         dialogueBoxPeter.SetActive(false);
     }
 
@@ -49,10 +45,11 @@ public class DialogueManager : MonoBehaviour
     /// </summary>
     void Update()
     {
+        Player player = Player.GetInstance();
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            currentLine++;
-            if (currentLine == 2 || currentLine == 5 || currentLine == 9)
+            player.DialogueLine++;
+            if (player.DialogueLine == 1 || player.DialogueLine == 4 || player.DialogueLine == 8)
             {
                 dialogueBoxAslan.SetActive(false);
                 dialogueBoxPeter.SetActive(true);
@@ -63,14 +60,18 @@ public class DialogueManager : MonoBehaviour
                 dialogueBoxAslan.SetActive(true);
             }
         }
-        if(currentLine>=sentences.Length)
+        if(player.DialogueLine >= sentences.Length)
         {
 
             dialogueBoxAslan.SetActive(false);
             dialogueBoxPeter.SetActive(false);
             
         }
-        dialogueTextAslan.text = sentences[currentLine];
-        dialogueTextPeter.text = sentences[currentLine];
+        try
+        {
+            dialogueTextAslan.text = sentences[player.DialogueLine];
+            dialogueTextPeter.text = sentences[player.DialogueLine];
+        }
+        catch(System.Exception e) {}
     }
 }

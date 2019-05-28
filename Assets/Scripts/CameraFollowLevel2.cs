@@ -2,15 +2,38 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Class <c>CameraFollowLevel2</c> makes sure the camera is locked onto the layer at all times.
+/// </summary>
 public class CameraFollowLevel2 : MonoBehaviour
 {
+    /// <summary>
+    /// A refference to the camera's Unity transform object
+    /// </summary>
     private Transform target;
-    private float xMin, xMax, yMin, yMax;
+    /// <summary>
+    /// The x coordinate of the minimal map point
+    /// </summary>
+    private float xMin;
+    /// <summary>
+    /// The x coordinate of the maximal map point
+    /// </summary>
+    private float xMax;
+    /// <summary>
+    /// The y coordinate of the minimal map point
+    /// </summary>
+    private float yMin;
+    /// <summary>
+    /// The y coordinate of the maximal map point
+    /// </summary>
+    private float yMax;
 
-    // Start is called before the first frame update
+    /// <summary>
+    /// Start is called before the first frame update.
+    /// </summary>
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        target = Player.GetInstance().transform;
 
         GameObject sprite2 = GameObject.FindGameObjectWithTag("Limit down");
         Vector3 minTile = sprite2.GetComponent<SpriteRenderer>().bounds.min;
@@ -21,12 +44,19 @@ public class CameraFollowLevel2 : MonoBehaviour
         SetLimits(minTile, maxTile);
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// LateUpdate is called once per frame.
+    /// </summary>
     private void LateUpdate()
     {
         transform.position = new Vector3(Mathf.Clamp(target.position.x, xMin, xMax), Mathf.Clamp(target.position.y, yMin, yMax), -10);
     }
 
+    /// <summary>
+    /// Sets the camera's boundaries.
+    /// </summary>
+    /// <param name="minTile">The minimal tile of the map</param>
+    /// <param name="maxTile">The maximal tile of the map</param>
     private void SetLimits(Vector3 minTile, Vector3 maxTile)
     {
         Camera cam = Camera.main;

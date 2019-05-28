@@ -4,19 +4,14 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
+/// <summary>
+/// Class <c>SaveManager</c> helps in managing the save and load process.
+/// </summary>
 public class SaveManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    /// <summary>
+    /// Implements the save feature.
+    /// </summary>
     public void Save(string path)
     {
         Player player = Player.GetInstance();
@@ -26,36 +21,39 @@ public class SaveManager : MonoBehaviour
             FileStream fs = File.Open(path, FileMode.Create);
             SaveData data = new SaveData();
             SavePlayer(data);
-            switch (data.MyPlayerData.MyLevel)
-            {
-                case "Tutorial":
-                    break;
-                case "EscapeRoom1":
-                    SaveEscaperoom1Data(data);
-                    break;
-                case "EscapeRoom2":
-                    break;
-            }
             bf.Serialize(fs, data);
             fs.Close();
         }
-        catch (System.Exception)
-        {}
+        catch (System.Exception e)
+        {
+            Debug.Log("Saving issue!" + e);
+        }
     }
 
+    /// <summary>
+    /// Initializes the PlayerData component.
+    /// </summary>
+    /// <param name="data">The entire save object</param>
     private void SavePlayer(SaveData data)
     {
         Player MyPlayer = Player.GetInstance();
-        data.MyPlayerData = new PlayerData(MyPlayer.CurrentLevel, MyPlayer.HasSword, MyPlayer.GetHealth(), MyPlayer.GetHunger(), MyPlayer.GetSpeed(), MyPlayer.posX, MyPlayer.posY, MyPlayer.posZ);
+        data.MyPlayerData = new PlayerData(MyPlayer.CurrentLevel, MyPlayer.HasSword, MyPlayer.GetHealth(), MyPlayer.GetHunger(), MyPlayer.GetSpeed(), MyPlayer.posX, MyPlayer.posY, MyPlayer.posZ, MyPlayer.DialogueLine);
     }
 
+    /// <summary>
+    /// Initializes the EscapeRoom1Data component.
+    /// </summary>
+    /// <param name="data">The entire save object</param>
     private void SaveEscaperoom1Data(SaveData data)
     {
         data.MyEscapeRoom1Data = new EscapeRoom1Data(GameObject.Find("Pillow shading").transform.position.x);
         Debug.Log(GameObject.Find("Pillow shading").transform.position.x);
     }
 
-    public  void Load(string path)
+    /// <summary>
+    /// Implements the load feature.
+    /// </summary>
+    public void Load(string path)
     {
         try
         {
@@ -64,21 +62,17 @@ public class SaveManager : MonoBehaviour
             SaveData data = (SaveData)bf.Deserialize(fs);
             LoadPlayer(data);
             SceneChange.LoadScene(data.MyPlayerData.MyLevel);
-            switch (data.MyPlayerData.MyLevel)
-            {
-                case "Tutorial":
-                    break;
-                case "EscapeRoom1":
-                    LoadEscapeRoom1Data(data);
-                    break;
-                case "EscapeRoom2":
-                    break;
-            }
             fs.Close();
         }
-        catch (System.Exception) {}
+        catch (System.Exception e) {
+            Debug.Log("Loading issue!" + e);
+        }
     }
 
+    /// <summary>
+    /// Loads the player saved data into the current player object.
+    /// </summary>
+    /// <param name="data">The entire save object</param>
     private void LoadPlayer(SaveData data)
     {
         Player MyPlayer = Player.GetInstance();
@@ -90,8 +84,13 @@ public class SaveManager : MonoBehaviour
         MyPlayer.posX = data.MyPlayerData.MyX;
         MyPlayer.posY = data.MyPlayerData.MyY;
         MyPlayer.posZ = data.MyPlayerData.MyZ;
+        MyPlayer.DialogueLine = data.MyPlayerData.MyDialogueLine;
     }
 
+    /// <summary>
+    /// Loads the first EscapeRoom data.
+    /// </summary>
+    /// <param name="data">The entire save object</param>
     private void LoadEscapeRoom1Data(SaveData data)
     {
         Debug.Log(data.MyEscapeRoom1Data.MyPernaX);
