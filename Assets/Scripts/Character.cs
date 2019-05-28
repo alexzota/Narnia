@@ -69,12 +69,57 @@ public abstract class Character : MonoBehaviour
     }
 
     /// <summary>
-    /// Set's the character's speed to <paramref name="value"/>.
+    /// Sets the character's speed to <paramref name="value"/>.
     /// </summary>
     /// <param name="value">The character`s movement speed value</param>
     public void SetSpeed(float value)
     {
         speed = value;
+    }
+
+    /// <summary>
+    /// Gets the character's speed.
+    /// </summary>
+    /// <returns>A float value equal to the character's speed</returns>
+    public float GetSpeed()
+    {
+        return speed;
+    }
+
+    /// <summary>
+    /// Sets the character`s health to <paramref name="value"/>.
+    /// </summary>
+    /// <param name="value">The character`s health value</param>
+    public void SetHealth(float value)
+    {
+        health.SetCurrentValue(value);
+    }
+
+    /// <summary>
+    /// Gets the character's health.
+    /// </summary>
+    /// <returns>A float value equal to the character's health</returns>
+    public float GetHealth()
+    {
+        return health.GetCurrentValue();
+    }
+
+    /// <summary>
+    /// Sets the character's hunger to <paramref name="value"/>.
+    /// </summary>
+    /// <param name="value">The character's hunger value</param>
+    public void SetHunger(float value)
+    {
+        hunger.SetCurrentValue(value);
+    }
+
+    /// <summary>
+    /// Gets the character's hunger.
+    /// </summary>
+    /// <returns>A float value equal to the character's hunger</returns>
+    public float GetHunger()
+    {
+        return hunger.GetCurrentValue();
     }
 
     /// <summary>
@@ -87,7 +132,7 @@ public abstract class Character : MonoBehaviour
     }
 
     /// <summary>
-    /// Indicates whether the characte's hunger is at maximum value.
+    /// Indicates whether the character's hunger is at maximum value.
     /// </summary>
     /// <returns>True if the character's hunger is at maximum value and false otherwise</returns>
     public bool IsAtMaxHunger()

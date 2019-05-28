@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Ceas1Script : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     [SerializeField]
     private int correctHour;
 
@@ -13,9 +11,6 @@ public class Ceas1Script : MonoBehaviour
     private string defaultPath = "ceas1-";
     private string path;
     private int contor = 1;
-    void Start()
-    {
-    }
 
     public bool CorrectHourFunction()
     {
@@ -32,12 +27,6 @@ public class Ceas1Script : MonoBehaviour
             path = defaultPath + contor;
             mySprite = Resources.Load<Sprite>(path);
             GetComponent<SpriteRenderer>().sprite = mySprite;
-            
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

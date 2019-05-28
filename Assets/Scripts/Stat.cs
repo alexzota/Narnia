@@ -46,6 +46,26 @@ public class Stat : MonoBehaviour
         {
             content.fillAmount = Mathf.Lerp(content.fillAmount, currentFill, Time.deltaTime * lerpSpeed);
         }
+        currentFill = currentValue / maxValue;
+
+    }
+
+    /// <summary>
+    /// Gets the stat's current value
+    /// </summary>
+    /// <returns>A float value representing the stat's current value</returns>
+    public float GetCurrentValue()
+    {
+        return currentValue;
+    }
+
+    /// <summary>
+    /// Sets the stat's current value to <paramref name="value"/>.
+    /// </summary>
+    /// <param name="value">The stat's value</param>
+    public void SetCurrentValue(float value)
+    {
+        currentValue = value;
     }
 
     /// <summary>

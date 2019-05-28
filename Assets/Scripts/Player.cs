@@ -20,7 +20,18 @@ public class Player : Character
     /// The name of the current level
     /// </summary>
     public string CurrentLevel { get; set; }
-
+    /// <summary>
+    /// The player's x coordinate.
+    /// </summary>
+    public float posX { get; set; }
+    /// <summary>
+    /// The player's y coordinate.
+    /// </summary>
+    public float posY { get; set; }
+    /// <summary>
+    /// The player's z coordinate.
+    /// </summary>
+    public float posZ { get; set; }
     /// <summary>
     /// Awake is called before Start.
     /// </summary>
@@ -52,6 +63,9 @@ public class Player : Character
     {
         GetInput();
         base.Update();
+        posX = this.transform.position.x;
+        posY = this.transform.position.y;
+        posZ = this.transform.position.z;
     }
 
     /// <summary>
@@ -67,7 +81,7 @@ public class Player : Character
     /// Gradually decreases the player's hunger.
     /// </summary>
     private void Starve() {
-        hunger.Decrease(1);
+        hunger.Decrease(5);
         if (hunger.IsEmpty())
             health.Decrease(5);
     }
