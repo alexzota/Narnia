@@ -10084,7 +10084,9 @@ MonoBehaviour:
   dialogueBoxPeter: {fileID: 103023935}
   sentences:
   - ' Welcome to the realm of Narnia,Peter! My name is Aslan and I am here to help
-    you!'
+    you!
+
+    Press ''Spacebar'' to continue.'
   - "How did I get here? Why am I even here?\t"
   - You got here throught the magic cupboard, that your sister discovered.Also, the
     fact that you're here was prophesized.

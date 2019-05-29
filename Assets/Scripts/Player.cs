@@ -80,9 +80,9 @@ public class Player : Character
         return instance;
     }
 
-    public void StartStarving()
+    public void StartStarving(float value)
     {
-        InvokeRepeating("Starve", 0, 3F);
+        InvokeRepeating("Starve", value, 3F);
     }
 
     public void StopStarving()
@@ -94,9 +94,9 @@ public class Player : Character
     /// Gradually decreases the player's hunger.
     /// </summary>
     private void Starve() {
-        hunger.Decrease(4);
+        hunger.Decrease(3);
         if (hunger.IsEmpty())
-            health.Decrease(3);
+            health.Decrease(2);
     }
 
     /// <summary>

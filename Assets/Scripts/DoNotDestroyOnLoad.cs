@@ -39,7 +39,7 @@ public class DoNotDestroyOnLoad : MonoBehaviour
                 case "menu":
                     SceneChange.LoadScene(Player.GetInstance().CurrentLevel);
                     Portrait.GetInstance().gameObject.SetActive(true);
-                    Player.GetInstance().StartStarving();
+                    Player.GetInstance().StartStarving(0);
                     break;
                 default:
                     SceneManager.LoadScene("menu", LoadSceneMode.Single);

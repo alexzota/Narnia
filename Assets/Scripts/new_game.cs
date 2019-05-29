@@ -12,7 +12,7 @@ public class new_game : MonoBehaviour
         {
             SceneChange.LoadSceneFromMenu("Tutorial");
             Portrait.GetInstance().gameObject.SetActive(true);
-            Player.GetInstance().StartStarving();
+            Player.GetInstance().StartStarving(30);
             Player.GetInstance().DialogueLine = 0;
         }
     }

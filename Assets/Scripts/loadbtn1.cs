@@ -16,7 +16,7 @@ public class loadbtn1 : MonoBehaviour
             Debug.Log(path);
             sv.Load(path);
             Player.GetInstance().StopStarving();
-            Player.GetInstance().StartStarving();
+            Player.GetInstance().StartStarving(0);
         }
     }
 }
