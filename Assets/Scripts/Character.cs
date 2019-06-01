@@ -122,11 +122,19 @@ public abstract class Character : MonoBehaviour
         return hunger.GetCurrentValue();
     }
 
+    /// <summary>
+    /// Gets the character's starting hunger.
+    /// </summary>
+    /// <returns>The character's starting hunger</returns>
     public float GetStartingHunger()
     {
         return startingHunger;
     }
 
+    /// <summary>
+    /// Gets the character's starting health.
+    /// </summary>
+    /// <returns>|The character's starting health</returns>
     public float GetStartingHealth()
     {
         return startingHealth;

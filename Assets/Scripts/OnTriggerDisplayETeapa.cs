@@ -11,6 +11,7 @@ public class OnTriggerDisplayETeapa : MonoBehaviour
     /// The Unity object that displays text
     /// </summary>
     public GameObject text;
+
     /// <summary>
     /// Start is called before the first frame update.
     /// </summary>

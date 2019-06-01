@@ -27,11 +27,18 @@ public class Portrait : MonoBehaviour
             Destroy(gameObject);
     }
 
+    /// <summary>
+    /// Start is called before the first frame update.
+    /// </summary>
     private void Start()
     {
         gameObject.SetActive(false);
     }
 
+    /// <summary>
+    /// Gets the only instance of this class.
+    /// </summary>
+    /// <returns>The only instance of this class</returns>
     public static Portrait GetInstance()
     {
         return instance;

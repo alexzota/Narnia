@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Class <c>DoNotDestroyOnLoad</c> is a singleton that helps keep objects it's attached to active when loading or switching the scene. It also enables and disables the menu.
+/// Class <c>DoNotDestroyOnLoad</c> is a singleton that helps keep objects it's attached to stay active when loading or switching the scene. It also enables and disables the menu.
 /// </summary>
 public class DoNotDestroyOnLoad : MonoBehaviour
 {

@@ -37,6 +37,7 @@ public class Player : Character
     /// The player's z coordinate.
     /// </summary>
     public float posZ { get; set; }
+
     /// <summary>
     /// Awake is called before Start.
     /// </summary>
@@ -80,11 +81,18 @@ public class Player : Character
         return instance;
     }
 
+    /// <summary>
+    /// Starts repeatedly calling the starve function after a number of seconds equal to <paramref name="value"/>.
+    /// </summary>
+    /// <param name="value">The number of seconds before the character starts starving</param>
     public void StartStarving(float value)
     {
         InvokeRepeating("Starve", value, 3F);
     }
 
+    /// <summary>
+    /// Cancels the effects of the StartStarving function.
+    /// </summary>
     public void StopStarving()
     {
         CancelInvoke();
